@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><h2 class="logo">Portfolio </h2></a>
+                <div class="nav-links" id="navLinks">
+                    <!-- Corrected event handler name to hideMenu() -->
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="course.html">EDUCATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- Corrected event handler name to showMenu() -->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact us</h1>
+
+        </section>
+		<!-- contact us -->
+
+         <section class="location">
+		     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115830.45767552321!2d67.07678523906249!3d24.874032271253803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb330c0490e9f33%3A0x45a3872e23b47123!2sQuaidabad%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh%2C%20Pakistan!5e0!3m2!1sen!2s!4v1731344716321!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		 </section>
+
+		 <section class="contact-us">
+		     <div class="row">
+		     <div class="contact-col">
+			   <div>
+			     <i class="fa fa-home"></i>
+				 <span>
+				     <h5>Quadiabad road, Green city </h5>
+					 <p>Sindh Karachi</p>
+				 </span>
+			   </div>
+			   <div>
+			     <i class="fa fa-phone"></i>
+				 <span>
+				     <h5>03042074450 </h5>
+					 <p>you can contact me 5 days of week Monady to friday</p>
+				 </span>
+			   </div>
+			   <div>
+			     <i class="fa fa-envelope"></i>
+				 <span>
+				     <h5>alihyderlaghari2006@gmail.com </h5>
+					 <p>Email your query</p>
+				 </span>
+			   </div>
+			 </div>
+		     <div class="contact-col">
+
+			    <form action="form-handler.php" method="post">
+				  <input type="text" name="name" placeholder="Enter your name" required>
+				  <input type="email" name="email" placeholder="Enter email addrress" required>
+				  <input type="text"  name="subject" placeholder="Enter your Subject" required>
+				  <textarea rows="8" name="message"  placeholder="Message" required></textarea>
+				  <button  type="submit" class="hero-btn red-btn">Send Message</button>
+				</form>
+
+			 </div>
+		   </div>
+		 </Section>
+
+        <!-- Footer Section -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Ali Hyder Laghari teaches you how to code and much more. If you need information, feel free to contact me. My Instagram ID is alibaba, and my Facebook ID is Ali Hyder.</p>
+            <div class="icons">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+			<p>Made by <i class="fa fa-heart"></i>developerAliHyder</p>
+        </section>
+
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><h2 class="logo">Portfolio </h2></a>
+                <div class="nav-links" id="navLinks">
+                    <!-- Corrected event handler name to hideMenu() -->
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="course.html">EDUCATION</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- Corrected event handler name to showMenu() -->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>Our online Certificate and online programs for 2021</h1>
+
+        </section>
+		<!-- blog page content-->
+
+      <section class="blog-content">
+
+	     <div class="row">
+
+			 <div class="blog-left">
+			           <img src="images/certificate.jpg" alt="">
+			            <h2>Our online Certificate and online programs for 2021 </h2>
+						<p>ALi Hyder Laghari provides you alot of apporutnities and alot of fun.
+						He teaches you alot of things then you have able to do the coding in every format
+						so everyone should join the center of Hyder you have learn alot of things from there
+						ALi Hyder Laghari provides you alot of apporutnities and alot of fun.
+						He teaches you alot of things then you have able to do the coding in every format
+						so everyone should join the center of Hyder you have learn alot of things from there</p>
+						<br>
+							<p>ALi Hyder Laghari provides you alot of apporutnities and alot of fun.
+						He teaches you alot of things then you have able to do the coding in every format
+						so everyone should join the center of Hyder you have learn alot of things from there
+						ALi Hyder Laghari provides you alot of apporutnities and alot of fun.
+						He teaches you alot of things then you have able to do the coding in every format
+						so everyone should join the center of Hyder you have learn alot of things from there</p>
+						<br>
+							<p>ALi Hyder Laghari provides you alot of apporutnities and alot of fun.
+						He teaches you alot of things then you have able to do the coding in every format
+						so everyone should join the center of Hyder you have learn alot of things from there
+						ALi Hyder Laghari provides you alot of apporutnities and alot of fun.
+						He teaches you alot of things then you have able to do the coding in every format
+						so everyone should join the center of Hyder you have learn alot of things from there</p>
+						<br>
+							<p>ALi Hyder Laghari provides you alot of apporutnities and alot of fun.
+						He teaches you alot of things then you have able to do the coding in every format
+						so everyone should join the center of Hyder you have learn alot of things from there
+						ALi Hyder Laghari provides you alot of apporutnities and alot of fun.
+						He teaches you alot of things then you have able to do the coding in every format
+						so everyone should join the center of Hyder you have learn alot of things from there</p>
+
+						<div class="comment-box">
+						   <h3>Leave a comment</h3>
+
+						   <form class="comment-form">
+						       <input type="text" placeholder="Enter name">
+						       <input type="email" placeholder="Enter Email">
+						       <textarea rows="5" placeholder="Put your comment"></textarea>
+							   <button type="submit" class="hero-btn red-btn"> POST COMMENT</button>
+						   </form>
+						</div>
+			 </div>
+			 <div class="blog-right">
+			   <h3>Post Categories</h3>
+			    <div>
+				   <span>Bussiness Analytics</span>
+				   <span>313</span>
+				</div>
+				 <div>
+				   <span>Data science</span>
+				   <span>20</span>
+				</div>
+				 <div>
+				   <span>Web developer</span>
+				   <span>100</span>
+				</div>
+				 <div>
+				   <span>Networiking</span>
+				   <span>15</span>
+				</div>
+				 <div>
+				   <span>Adobephotoshop</span>
+				   <span>313</span>
+				</div>
+			 </div>
+
+		 </div>
+
+	  </section>
+
+
+
+
+        <!-- Footer Section -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Ali Hyder Laghari teaches you how to code and much more. If you need information, feel free to contact me. My Instagram ID is alibaba, and my Facebook ID is Ali Hyder.</p>
+            <div class="icons">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+			<p>Made by <i class="fa fa-heart"></i>developerAliHyder</p>
+        </section>
+
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

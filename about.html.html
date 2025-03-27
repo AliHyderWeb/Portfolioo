@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <title>Portfolio</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    </head>
+
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><h2 class="logo">Portfolio </h2></a>
+                <div class="nav-links" id="navLinks">
+                    <!-- Corrected event handler name to hideMenu() -->
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                       <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="course.html">EDUCATION</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- Corrected event handler name to showMenu() -->
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>About us</h1>
+
+        </section>
+		<!-- about us content-->
+
+     <section class="about-us">
+	          <div class="row">
+			     <div class="about-col">
+				 <h1>Who I Am?</h1>
+				 <p>
+           My name is Ali Hyder. My father's name is Mashooque Ali. I have two sisters and one younger brother. I completed my education from KG to Matric at TCF (The Hunar Foundation) Campus Rubab Kassam, Rashidabad, Tando Allahyar. This school not only provided me with education but also instilled discipline and valuable life lessons. My time from KG to Matric was truly memorable, and I secured 64% in my Matriculation. I always strived to be a good student and a responsible individual, and I have countless memories associated with this school.
+
+           After completing Matric, I enrolled in SM Degree College, Tando Allahyar, where I pursued 1st and 2nd year. I am currently preparing for my 2nd-year exams, scheduled for April 2025.
+
+           During these two years, I realized the importance of gaining practical skills. A friend recommended Hunar Foundation for its DIT (Diploma in Information Technology) course, so I decided to enroll while continuing my 2nd-year studies. Upon joining Hunar Foundation, I met highly supportive and friendly teachers who created a great learning environment.
+
+           For the first two months, I learned consistently. When I first joined, I had no prior knowledge of computers—I started from absolute zero. However, within three months, I gained a solid understanding of IT concepts. One day, I asked Sir Zubair Jamshed about the scope of the DIT course, and he provided me with an honest answer: DIT is a basic course with limited career opportunities.
+
+           I then asked him about a more advanced course with strong career prospects. He suggested Web Development, explaining that it is a high-demand field. When I inquired about where I could study Web Development, he mentioned that no local institutes offered it, but he was willing to teach me personally. He also informed me that mastering Web Development would take 6 to 8 months. I accepted the challenge and committed to learning it.
+
+           For context, Sir Zubair Jamshed has been a Web Developer since 2011 and has extensive experience in the field. Under his mentorship, my Web Development journey began.
+
+           For the past 6 to 7 months, I have been consistently learning and improving my skills. Today, Alhamdulillah, I have gained strong expertise in:
+           ✅ HTML5, CSS3, Bootstrap
+           ✅ JavaScript, jQuery, AJAX
+           ✅ PHP, MySQL, REST API
+
+           This journey has been incredibly rewarding, and I am excited to continue growing as a Web Developer.
+				 </p>
+				 <a href="" class="hero-btn red-btn">Explore my work and skills</a>
+				 </div>
+			     <div class="about-col"><img src="images/laghari.jpg" style="width:100%; margin-top: 70px;"></div>
+
+			  </div>
+	 </section>
+
+        <!-- Footer Section -->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Ali Hyder Laghari teaches you how to code and much more. If you need information, feel free to contact me. My Instagram ID is alibaba, and my Facebook ID is Ali Hyder.</p>
+            <div class="icons">
+               <i class="fa fa-star"></i>
+               <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+            </div>
+			<p>Made by <i class="fa fa-heart"></i>developerAliHyder</p>
+        </section>
+
+        <!-- JavaScript for Toggle Menu -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+</html>

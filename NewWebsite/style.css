@@ -1,0 +1,695 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color: hsl(0, 0%, 10%);
+    width:100%;
+    height: auto;
+}
+#container #header{
+    display: flex;
+    justify-content: space-between;
+    color:white;
+    height:100px;
+    padding:20px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    left:0;
+    background-color: hsl(0, 0%, 10%);
+    
+}
+
+#header .icn1{
+    margin-top: 20px;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor:pointer;
+}
+#header .icon2{
+    margin-top: 20px;
+   padding:5px;
+    font-size: 20px;
+    cursor:pointer;
+}
+#header .icon2 :first-child{
+    margin-right: 20px;
+}
+
+#container .body{
+    width:90%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#container .body .txt{
+    width:40%;
+    color: white;
+    margin-right:120px;
+}
+#container .body .txt h1{
+    font-size: 55px;
+    font-weight: bolder;
+    margin:0;
+}
+#container .body .txt h2{
+    color: rgba(255, 255, 255, 0.664);
+    box-shadow: 0 4px 6px rgba(255, 255, 255, 0.2), 
+    0 1px 3px rgba(255, 255, 255, 0.1);
+
+
+}
+#container .body .txt p{
+    margin-top: 40px;
+    color: rgba(255, 255, 255, 0.581);
+   
+
+
+}
+#container .body .txt a{
+    background-color: hsl(60, 100%, 45%);
+    padding :15px 10px;
+    width:50%;
+    font-size: 16px;
+    text-align: center;
+    font-family: arial;
+    margin-top: 30px;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+#container .body .txt a:hover{
+    background-color: hsl(60, 100%, 50%);
+    
+}
+#container .body .img{
+    width:50%;
+}
+#container .body .img img{
+    width:100%;
+}
+
+#container .tonal{
+ 
+    width:90%;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+   gap: 25px;;
+}
+#container .tonal #h{
+    width:30%;
+    background-color: black;
+    color:white;
+    text-align:center;
+    border:1px solid yellow;
+    padding: 3px 10px;
+    font-size: 19px;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+#container .tonal #h:hover{
+    cursor: ns-resize;
+    background: white;
+    color: black;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+#container .h-1{
+    color:white;
+    font-size: 45px;
+    margin-left: 80px;
+    margin-bottom: 0;
+}
+#container .skills{
+    width:95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+    margin:0 auto;
+    padding:10px;
+}
+#container .skills #img{
+    width:30%;
+    border: 1px solid yellow;
+    padding: 15px;;
+    box-sizing: border-box;
+    background-color: black;
+}
+#container .skills #img img{
+    width:100%;
+    
+}
+#container .skills #img p{
+ color:hsl(0, 0%, 80%);
+ font-weight: bold;
+}
+#container .h-2{
+    color:white;
+    font-size: 45px;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.letter {
+    opacity: 0;
+    transform: translateY(20px);
+    display: inline-block;
+    transition: all 0.5s ease;
+}
+.letter.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+#container .wealth{
+    width:95%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:40px;
+    margin:0 auto;
+    padding:10px;
+}
+#container .wealth #imgs{
+    width:30%;
+    border: 1px solid yellow;
+    padding: 15px;;
+    box-sizing: border-box;
+    background-color: black;
+   
+}
+
+#container .wealth #imgs img{
+    width:100%;
+    transition:1s;
+    cursor: pointer;
+}
+#container .wealth #imgs img:hover{
+    transform:scale(1.1);
+   
+}
+#container .wealth #imgs p{
+    color:hsl(0, 2%, 70%);
+    font-weight: bold;
+   }
+#container .wealth #imgs h2{
+    color:hsl(0, 0%, 100%);
+    font-weight: bold;
+ }
+
+ #container .map{
+    width:85%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    margin:100px auto;
+    padding:10px;
+ }
+ #container .map .text{
+    width:40%;
+    color:hsl(0, 0%, 100%);
+  
+ }
+ #container .map .text span{
+    font-weight: bold;
+    color:hsl(0, 0%, 80%);
+   margin: 0 0 10px 0;
+   font-size: 15px;
+ }
+ #container .map .text h1{
+    margin: 0;
+    font-size: 42px;
+   
+ }
+ #container .map .text p{
+    font-weight: bold;
+    color:hsl(0, 0%, 70%);
+    text-align: justify;
+   
+   
+ }
+ #container .map .text :nth-child(3){
+    margin-bottom:50px;
+    
+ }
+ #container .map .text :nth-child(4){
+    margin-bottom:50px;
+ }
+ #container .map .text :nth-child(5){
+    font-weight: bold;
+    color:hsl(0, 0%, 90%);
+ }
+ #container .map .img-map{
+    width:50%;
+    margin-left: 50px;
+    margin-top: 50px;
+ }
+ #container .map .img-map img{
+    width:100%;
+ }
+
+#container .lerning{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;;
+    margin:70px auto;
+    padding:20px;
+    border: 1px solid yellow;
+}
+#container .lerning .img{
+    width:30%;
+    margin-right:50px;
+    margin-top:30px;
+}
+#container .lerning .tt{
+    width:44%;
+    color: white;
+}
+#container .lerning .tt h1{
+    font-size: 42px;
+}
+#container .lerning .img img{
+    width:100%;
+}
+
+#container .lerning2{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;;
+    margin:0 auto;
+    padding:20px;
+    border: 1px solid yellow;
+}
+#container .lerning2 .img2{
+    width:30%;
+    margin-right:50px;
+    margin-top:30px;
+}
+#container .lerning2 .tt2{
+    width:44%;
+    color: white;
+}
+#container .lerning2 .tt2 h1{
+    font-size: 42px;
+}
+#container .lerning2 .img2 img{
+    width:100%;
+}
+
+#container .lerning3{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 80px;;
+    margin: 70px auto;
+    padding:20px;
+    border: 1px solid yellow;
+}
+#container .lerning3 .img3{
+    width:30%;
+    margin-right:50px;
+    margin-top:30px;
+}
+#container .lerning3 .tt3{
+    width:44%;
+    color: white;
+}
+#container .lerning3 .tt3 h1{
+    font-size: 42px;
+}
+#container .lerning3 .img3 img{
+    width:100%;
+}
+#container .question{
+    width:60%;
+    margin:0 auto;
+    /* border: 1px solid yellow; */
+    color:white;
+}
+#container .question h1{
+    font-size:48px;
+   margin: 5px 0 30px 0 ;
+}
+
+#container .question .according-title{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.786);
+    border-top: 1px solid  rgba(255, 255, 255, 0.786);
+    margin:0;
+    padding: 0 ;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+#container .question .according-title:hover{
+    background-color: rgba(24, 19, 19, 0.974);
+}
+#container .question .according-title h3{
+   margin: 0;
+    padding: 15px;
+    
+}
+
+#container .question .according-content{
+    margin:0;
+  display: none;
+  padding:10px;
+}
+#container .question .according-content ul li{
+    padding:10px;
+}
+   
+#container .question .according-content p{
+    margin:0;
+    padding: 10px;
+    line-height: 1;
+}
+#container .question .according-content #hyder{
+   text-align: justify;
+   font-size: 18px;
+   line-height: 1.5;
+}
+
+#container .question .according-item.active .according-content{
+    display: block;
+}
+#container  #form{
+    width:60%;
+    margin:70px auto;
+    color:white;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#container  #form h1{
+    font-size:50px;
+    text-align: center;
+    margin: 0;
+}
+#container  #form p{
+    color: rgba(255, 255, 255, 0.629);
+    text-align: center;
+    margin: 10px 0 20px 0 ;
+    font-weight: bold;
+    font-size: 17px;
+    
+}
+#container  #form input{
+   background: none;
+   padding:10px 20px;
+   border: 1px solid rgba(255, 255, 255, 0.671);
+   width:40%;
+   
+   color:white;
+   font-size: 17px;
+   font-weight: bold;
+}
+
+
+#container .lst{
+    display: flex;
+    justify-content: space-between;
+    color:hsl(0, 0%, 70%);
+    width:95%;
+    margin:50px auto;
+    font-weight: bold;
+    border-bottom:1px solid  rgba(255, 255, 255, 0.671);
+}
+#container .lst .ul{
+    width:30%;
+}
+#container .lst .ul a{
+    text-decoration: none;
+    color:hsl(0, 0%, 70%);
+  
+} 
+#container .lst .ul a:hover{
+    text-decoration: underline;
+  
+  
+}
+#container .lst .ul ul li{
+    padding:5px 0;
+}
+#container .lst .plcy{
+    width:45%;
+    text-align: justify;
+    margin-right:30px;
+    margin-bottom: 50px;
+}
+#container .lst .plcy p{
+    font-size:17px
+}
+#container .end{
+    width:95%;
+    margin:20px auto;
+    color:hsl(0, 0%, 70%);
+}
+
+#container .end p{
+    font-size: 14px;
+    font-weight: bold;
+}
+#container .end a{
+    text-decoration: none;
+    color: hsl(0, 0%, 70%);
+    font-weight: bold;
+    padding:3px;
+    font-size: 14px;
+   
+}
+#container .end a:hover{
+    text-decoration: underline;
+    
+}
+
+/* Second Page of Cart */
+
+#container .cart{
+    margin: 100px auto;
+    width:80%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-between;
+    color: hsl(0, 0%, 70%);
+}
+#container .cart .img{
+    width:40%;
+
+}
+#container .cart .img-text{
+    width:40%;
+    margin-right: 20px;
+}
+
+#container .cart .img-text h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    margin: 0 0 5px 0;
+    color: white;
+}
+#container .cart .img-text :nth-child(1){
+    font-size: 10px;
+    font-weight: bolder;
+    color: hsl(0, 0%, 90%);
+    margin:0;
+}
+#container .cart .img-text :nth-child(3){
+    font-weight: bolder;
+    font-size: 18px;
+    color: hsl(0, 0%, 90%);
+   margin-bottom: 5px;
+   display: block;
+}
+#container .cart .img-text a{
+    text-decoration: none;
+    color: white;
+}
+#container .cart .img-text :nth-child(5){
+    border: 1px solid rgb(255, 255, 0);
+    color:yellow;
+    cursor: pointer;
+    display: block;
+    width:97%;
+    text-align: center;
+    padding:14px;
+    font-weight: bold;
+    
+}
+#container .cart .img-text :nth-child(5):hover{
+ border: 1px solid rgba(255, 255, 0, 0.643);
+  
+    
+}
+#container .cart .img-text :nth-child(7){
+   background:rgba(255, 255, 0, 0.935);
+    color:black;
+    cursor: pointer;
+    display: block;
+    width:97%;
+    text-align: center;
+    padding:14px;
+    font-weight: 500;
+    
+}
+#container .cart .img-text :nth-child(7):hover{
+    background: yellow;
+  
+    
+}
+#container .cart .img img{
+    width: 100%;
+}
+
+#container .form{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    color:white;
+   
+}
+#container .form h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#container .form :nth-child(2){
+    width: 100%;
+    padding:10px;
+    background: none;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#container .form :nth-child(3){
+    width: 100%;
+    padding:10px;
+    background: none;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#container .form :nth-child(4){
+    text-align: left;
+    color:yellow;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 43px;
+    text-underline-offset: 3px;
+}
+#container .form :nth-child(4):hover{
+   
+   
+    color: rgba(202, 202, 63, 0.821);
+   
+ }
+#container .form :nth-child(5){
+   width:30%;
+   padding:15px 10px;
+   background:yellow;
+   font-family: arial;
+   font-size: 16px;
+   border: none;
+   align-self: center;
+   font-weight: 500;
+   margin-bottom: 20px;
+   cursor: pointer;
+
+}
+
+#container .form :nth-child(6){
+    text-align: center;
+    font-weight: bold;
+    text-underline-offset: 3px;
+    color: yellow;
+    font-size: 15px;
+   
+ }
+ #container .form :nth-child(6):hover{
+   
+   
+    color: rgba(202, 202, 63, 0.821);
+   
+ }
+
+/* last one  */
+
+#container .create{
+    width:30%;
+    display: flex;
+    flex-direction: column;
+    margin: 100px auto;
+    color:white;
+   
+}
+#container .create h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#container .create :nth-child(2){
+    width: 100%;
+    padding:10px;
+    background: none;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+#container .create :nth-child(3){
+    width: 100%;
+    padding:10px;
+    background: none;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#container .create :nth-child(4){
+    width: 100%;
+    padding:10px;
+    background: none;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#container .create :nth-child(5){
+    width: 100%;
+    padding:10px;
+    background: none;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#container .create :nth-child(6){
+    width:30%;
+    padding:15px 10px;
+    background:yellow;
+    font-family: arial;
+    font-size: 16px;
+    border: none;
+    align-self: center;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+   transition: all 1s;
+ }
+ #container .create :nth-child(6):hover{
+    transform: scale(1.2);
+    
+ }

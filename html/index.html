@@ -1,0 +1,105 @@
+<html>
+     <head>
+	      <title>My first Project</title>
+		
+		  <style>
+			   <link 
+			  <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+			   
+					* {
+					    margin:0;
+						padding:0;
+						box-sizing:border-box;
+						font-family:arial;	
+					}
+					body{
+					  height:100vh;
+					  display:flex;
+					  align-items:center;
+					  justify-content:center;
+					  background-color:#f4f4f4;
+					}
+					.Profile-card{
+					display:flex;
+					  flex-direction:column;
+					  align-items:center;
+					  max-width:370px;
+					  width:100%;
+					  background:#fff;
+					  border-radius:24px;
+					  padding:25px;
+					  box-shadow:0 5px 10px rgba(0, 0, 0, 0.1);
+					}
+					.Profile-card .text-data{
+					  display:flex;
+					  flex-direction:column;
+					  align-items:center;
+					  color:#333;
+					}
+					.image{
+						height:150px;
+						width:150px;
+						position:relative;	
+						border-radius:60%;
+						background:skyblue;
+						padding:3px;
+						margin-bottom:10px;
+					}
+					 .image .profile-img {
+						height:100%;
+						width:100%;
+						object-fit:cover;
+						border-radius:60%;
+						border:1px solid #fff;
+	                     }
+				     .text-data .name{
+					    font-size:22px;
+						font-weight:500;
+					 }
+				  .text-data .job{
+					    font-size:15px;
+						font-weight:400;
+					 }
+				.prfile-card .buttons{
+				  display:flex;
+				  align-items:center;
+				
+				}
+                 
+				.buttons .button{
+				 color:white;
+				 font-size:14px;
+				 font-wight:400;
+			      border:none;
+				  border-radius:24px;
+				  margin:0 10px;
+				  padding:8px 24px;
+				   background:skyblue;
+				   cursor:pointer;
+				   transition:all 0.3s ease;
+				}
+				
+				.buttons .button:hover{
+				   background-color:#0e4bf1;
+				}
+		  </style>
+	 </head>
+	 
+	 <body>
+	  
+	      <div class="Profile-card">
+		    <div class="image">
+			  <img src="ali.jpg" alt="image of Ali" class="profile-img"></img>
+			  </div>
+			  
+			  <div class="text-data">
+			    <span class="name">Coding Lab</span>
+			    <span class="job">Youtuber & Blogger</span>
+		  </div>	  
+		  <div class="buttons">
+		  <button class="button">Subscribe</button>
+		  <button class="button">Message</button>
+		  </div>
+	</div>
+	 </body>
+</html>

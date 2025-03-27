@@ -1,0 +1,2783 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scrollbar-width: thin;
+}
+
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+   width:38px;
+   height: 38px;
+   
+   background-image: url(image/top.png);
+
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding:0;
+}
+.container .header{
+    margin: 0;
+    padding: 0;
+    width:100%;
+    background-color: rgba(240, 248, 255, 0.254);
+    height: auto;
+}
+.container .header .first{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: darkblue;
+   
+}
+.container .header .first .first1{
+    width:20%;
+    display: flex;
+   margin-right: 20px;
+
+}
+.container .header .first .first1 img{
+    width:50%;
+  height:80%;
+    margin-right: 20px;
+}
+.container .header .first .first1 h2{
+   margin-top:6px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 33px;
+}
+.container .header .first .first3{
+    width:20%;
+    margin-top: 6px;
+   
+}
+.container .header .first .first3 i{
+    padding: 5px 10px 0 0;
+    font-size: 16px;
+}
+.container .header .first .first2{
+    width:40%;
+ 
+}
+.container .header .first .first2 input{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    background: whitesmoke;
+    border-color: 1px solid white;
+    color:black;
+    margin-top: 8px;
+}
+.container .header .first .first2 input::placeholder{
+    color:darkblue;
+   
+}
+.container .header .ancrs{
+    width:80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: darkblue;
+    margin-top: 10px;
+}
+.container .header  .ancrs ul  {
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    align-items: center;
+   gap: 10px;
+}
+.container .header  .ancrs ul li{
+    list-style: none;
+    background:whitesmoke;
+   text-align: center;
+   padding:10px 40px;
+   cursor: pointer;
+}
+.container .header  .ancrs ul li:hover{
+    background:rgba(255, 255, 255, 0.067);
+}
+.container .header  .ancrs a{
+    text-decoration: none;
+   font-size: 17px;
+   margin-top: 5px;
+   display: block;
+}
+.container .header  .ancrs i{
+    font-size:17px;
+}
+.container .header  .ancrs i:hover{
+    color: darkorange;
+}
+.container .main-outer{
+    background:whitesmoke;
+    width:100%;
+    height: 700px;
+    position: relative;
+}
+.container .main-outer  .outer{
+    width:90%;
+    height:600px;
+    border-radius: 25px;
+    background: #0a2e48;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.container .main-outer .outer .inner{
+    width:80%;
+    height:100%;
+    background-image:url(images/banner-img.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:50px auto;
+    border-radius: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+.container .main-outer .outer .inner .inner1{
+    width:50%;
+    color: white;
+    margin-top: 120px;
+    
+}
+.container .main-outer .outer .inner .inner1 h1{
+    font-size:75px;
+}
+.container .main-outer .outer .inner .btn{
+    margin-top: 50px;
+    cursor: pointer;
+    width:35%;
+    border: none;
+  display: inline-block;
+    padding:15px 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 16px;
+    background: darkorange;
+    color: white;
+    transition: background 0.9s;
+}
+.container .main-outer .outer .inner .btn:hover{
+    background: white;
+    color:red;
+}
+.container .main-outer .outer .inner  #hero-btn{
+    margin-left:40px;
+    background: white;
+    color:red;
+    transition: background 0.8s;
+}
+
+.container .main-outer .outer .inner  #hero-btn:hover{
+    background: darkorange;
+    color: white;
+}
+.container .atoms{
+    margin:200px auto;
+    width:80%;
+    height:500px;
+    background: white;
+    color:#0a2e48;
+}
+.container .atoms h1{
+    margin-top:10px;
+    font-size: 55px;
+}
+.container .atoms h1 span{
+    color:darkorange;
+}
+.container .atoms .atoms-inner{
+    margin-top: 70px;
+    width:100%;
+    display: flex;
+}
+.container .atoms .atoms-inner ul{
+    list-style: none;
+    display: flex;
+    gap:20px;
+}
+.container .atoms .atoms-inner ul li{
+    background: rgb(245, 245, 245);
+    padding: 50px 50px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-left: 12px;
+    cursor: pointer;
+}
+.container .atoms .atoms-inner ul li:hover{
+    background-color: #fff;
+}
+.container .atoms .atoms-inner a{
+    text-decoration: none;
+    color: #0a2e48;
+}
+.container .atoms .atoms-inner i{
+    font-size:26px;
+    color:#0a2e48;
+    margin-bottom: 20px;
+    transition:0.8s;
+}
+.container .atoms .atoms-inner i:hover{
+    color: darkorange;
+}
+.container .sofa{
+    width:80%;
+    margin:100px auto;
+   
+    display: flex;
+    gap: 100px;
+}
+.container .sofa .sofa-img{
+    width:50%;
+}
+.container .sofa .sofa-img img{
+    width:100%;
+}
+.container .sofa .eid{
+    width:40%;
+}
+.container .sofa .eid h1{
+    font-size:50px;
+    margin-top:20px;
+    color: #0a2e48;
+}
+.container .sofa .eid .btn{
+    margin-top: 50px;
+    cursor: pointer;
+    width:35%;
+    border: none;
+  display: inline-block;
+    padding:10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 17px;
+    background: white;
+    border: 1px solid darkorange;
+    color: darkorange;
+    transition: background 0.8s;
+}
+.container .sofa .eid .btn:hover{
+    background:darkorange;
+    color: white;
+}
+.container .outer-dining{
+    width:80%;
+    margin: 140px auto 300px auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    position: relative;
+}
+.container .outer-dining .sofas{
+    width:25%;
+    height:400px;
+    background: whitesmoke;
+}
+.container .outer-dining .sofas p{
+    color: blue;
+    
+}
+.container .outer-dining .sofas i{
+    color:darkorange;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.container .outer-dining .sofas h4{
+    color:darkblue;
+}
+.container .outer-dining .sofas img{
+    width:80%;
+    margin-bottom: 50px;
+}
+.container .outer-dining #green-sofa{
+    text-align: center;
+}
+
+.container .outer-dining #green-sofa img{
+    width:60%;
+    margin-top: 50px;
+}
+.container .outer-dining #blue-table{
+    text-align: center;
+}
+.container .outer-dining #blue-table img{
+    width:70%;
+    margin-top: 50px;
+    margin-bottom: 105px;
+}
+
+.container .outer-dining #lamp-lighting{
+    text-align: center;
+}
+.container .outer-dining #lamp-lighting img{
+    width:50%;
+    margin-top: 50px;
+    margin-top:67px;
+}
+
+.container .outer-dining #brown-sofa{
+    text-align: center;
+}
+.container .outer-dining #brown-sofa img{
+    width:60%;
+    margin-top: 50px;
+}
+
+.container .outer-dining #brown-table{
+    text-align: center;
+}
+.container .outer-dining #brown-table img{
+    width:100%;
+    margin-top: 90px;
+ 
+}
+
+.container .outer-dining #showcase{
+    text-align: center;
+}
+.container .outer-dining #showcase img{
+    width:70%;
+    
+    margin-top: 80px;
+}
+.container .outer-dining .hero-btn{
+    margin-top: 60px;
+    cursor: pointer;
+    width:15%;
+    border: none;
+  display: inline-block;
+    padding:8px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 17px;
+    background: white;
+    border: 1px solid darkorange;
+    color: darkorange;
+    transition: background 0.8s;
+    text-align: center;
+    position: absolute;
+    left:40%;
+    top:100%;
+   
+}
+ .outer-dining .hero-btn:hover{
+    background: darkorange;
+    color: white;
+}
+.container .outer-block{
+    width:100%;
+    background: #0a2e48;
+    height:600px;
+   position: relative;
+}
+.container .outer-block .inner-block{
+    width:70%;
+    height:450px;
+    background: darkorange;
+    position: absolute;
+    left: 50%;
+    top:15%;
+    transform: translate(-50%);
+    border-radius:50px;
+    display: flex;
+    flex-wrap: wrap;
+   gap:50px;
+}
+.container .outer-block .inner-block .inner-img{
+    width:40%;
+    
+}
+.container .outer-block .inner-block .inner-img img{
+    width:80%;
+    margin-left : 100px;
+    margin-top: 50px;
+}
+.container .outer-block .inner-block .innertext{
+    width:40%;
+    margin-left: 20px;
+    color:white;
+}
+.container .outer-block .inner-block .innertext h1{
+    margin-top: 50px;
+    font-size: 45px;
+}
+.container .outer-block .inner-block .innertext .hero-btn{
+    margin-top: 40px;
+    cursor: pointer;
+    width:50%;
+    border: none;
+  display: inline-block;
+    padding:8px 30px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-size: 17px;
+    background: #0a2e48;  
+    color: white;
+    transition: background 0.8s;
+    text-align: center;
+}
+.container .outer-block .inner-block .innertext .hero-btn:hover{
+    background: white;  
+    color: darkblue;
+}
+.container .outer-block .inner-block .innerul{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    color: white;
+    font-size: 14px;
+}
+
+.container .sell{
+    width:100%;
+    height: 400px;
+    background:white;
+
+}
+.container .sell .sell-outer{
+    width:60%;
+    height: 150px;
+    margin: 100px auto;
+  
+    display: flex;
+  
+}
+.container .sell .sell-outer .sell-inner{
+    width:40%;
+    background: darkorange;
+    color:white;
+    
+}
+.container .sell .sell-outer .sell-inner p{
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10px;
+    text-align: justify;
+}
+.container .sell .sell-outer .sell-inner p span{
+    color:#0a2e48;
+    font-size: 19px;
+}
+.container .sell .sell-outer .input-inner{
+    width:60%;
+    background: #0a2e48;
+}
+.container .sell .sell-outer .input-inner input{
+    margin-top:50px;
+    margin-left: 30px;
+    background: none;
+    border: 1px solid white;
+    width:70%;
+    padding:8px 20px;
+    color:white
+}
+.container .sell .sell-outer .input-inner .hero-btn{
+    width:20%;
+    border: none;
+    background:darkorange;
+    color: white;
+    padding:8px 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size:16px;
+    transition: background 0.8s;
+    margin-left: 5px;
+}
+.container .sell .sell-outer .input-inner .hero-btn:hover{
+    background:white;
+    color:darkorange;
+}
+.container .caclculater-outer{
+    width:100%;
+    background: #0a2e48;
+    height:500px;
+    display: flex;
+    
+}
+.container .caclculater-outer .text{
+    width:40%;
+    color: darkorange;
+}
+.container .caclculater-outer .text h1{
+    margin-top:100px;
+    text-align: center;
+    font-size:40px;
+}
+.container .caclculater-outer .calculater{
+    width:60%;
+    
+}
+.container .caclculater-outer .calculater .calculater-inner{
+    max-width:41%;
+    border: 1px solid rgba(255, 255, 255, 0.481);
+    max-height: 450px;
+    margin: 30px 0 0 0 ;
+    background:rgba(0, 0, 1, 0.63);
+   
+}
+.container .caclculater-outer .calculater .calculater-inner input{
+    width:100%;
+    background: none;
+    color:white;
+    padding:10px;
+    margin-bottom:2px;
+    border: none;
+    font-size:16px;
+}
+.container .caclculater-outer .calculater .calculater-inner .items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding:8px;
+}
+.container .caclculater-outer .calculater .calculater-inner button{
+    width: 80px;
+    height:80px;
+    border-radius: 40px;
+    border:none;
+    background:rgb(0, 0, 0.9);
+    color: white;
+    font-size:22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.container .caclculater-outer .calculater .calculater-inner button:hover{
+    background: rgba(0, 0, 0, 0.177);
+}
+.container .caclculater-outer .calculater .calculater-inner button:active{
+    background: rgba(0, 0, 0, 0.016);
+}
+
+#fa{
+    display: none;
+}
+/* for 789 to 1024 */
+@media (min-width:769px) and (max-width:1024px) {
+    #fa{
+   display: inline-block;
+    font-size: 22px;
+    margin-left:5px;
+    cursor: pointer;
+    }
+    .container .header .ancrs{
+    position: absolute;
+    background:#0a2e48;
+    height:100vh;
+    width:200px;
+    color:white;
+    top:0;
+    left:-200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    }
+    .container .header  .ancrs ul  {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin:0 0;
+    align-items: left;
+    gap: 0;
+    }
+    .container .header  .ancrs ul li{
+    list-style: none;
+    background:none;
+    text-align: center;
+    padding:5px;
+    cursor: normal;
+    }
+    .container .header  .ancrs ul li:hover{
+    background:none;
+    }
+    .container .header  .ancrs a{
+    font-size: 19px;
+    margin-top: 5px;
+    display: block;
+    color: white;
+    padding:10px 40px;
+    transition: background 0.3s;
+    }
+    .container .header .ancrs a:hover{
+    background: black;
+    }
+    .container .header  .ancrs i{
+    display: none;
+    }
+
+    .container .header{
+        margin: 0;
+        padding: 0;
+        width:100%;
+        background-color: rgba(240, 248, 255, 0.254);
+        height: auto;
+    }
+    .container .header .first{
+        width:80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        color: darkblue;
+       
+    }
+    .container .header .first .first1{
+        width:20%;
+        display: flex;
+       margin-right: 20px;
+    
+    }
+    .container .header .first .first1 img{
+        width:80%;
+      height:80%;
+        margin-right: 20px;
+    }
+    .container .header .first .first1 h2{
+       margin-top:6px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 33px;
+    }
+    .container .header .first .first3{
+        width:20%;
+        margin-top: 6px;
+       
+    }
+    .container .header .first .first3 i{
+        padding: 5px 10px 0 0;
+        font-size: 16px;
+    }
+    .container .header .first .first2{
+        width:40%;
+     
+    }
+    .container .header .first .first2 input{
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        background: whitesmoke;
+        border-color: 1px solid white;
+        color:black;
+        margin-top: 8px;
+    }
+    .container .main-outer{
+        background:whitesmoke;
+        width:100%;
+        height: 500px;
+        position: relative;
+    }
+    .container .main-outer  .outer{
+        width:90%;
+        height:400px;
+        border-radius: 25px;
+        background: #0a2e48;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .container .main-outer .outer .inner{
+        width:82%;
+        height:100%;
+        background-image:url(images/banner-img.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:50px auto;
+        border-radius: 25px;
+        display: flex;
+        justify-content: flex-end;
+    }
+    .container .main-outer .outer .inner .inner1{
+        width:auto;
+        color: white;
+        margin-top: 60px;
+        margin-left:90px;
+        margin-right: 10px;
+    }
+    .container .main-outer .outer .inner .inner1 h1{
+        font-size:45px;
+    }
+    .container .main-outer .outer .inner .inner1 h1:nth-child(1){
+        margin-left:0px;
+        text-align: right;
+        margin-top: 80px;
+    }
+    .container .main-outer .outer .inner .btn{
+        margin-left:35px;
+        margin-top: 20px;
+        cursor: pointer;
+        width:43%;
+        border: none;
+      display: inline-block;
+        padding:8px 20px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 16px;
+        background: darkorange;
+        color: white;
+        transition: background 0.8s;
+    }
+    .container .main-outer .outer .inner .btn:hover{
+        background: white;
+        color:red;
+    }
+    .container .main-outer .outer .inner  #hero-btn{
+        margin-left:0;
+        background: white;
+        color:red;
+        transition: background 0.8s;
+    }
+    
+    .container .main-outer .outer .inner  #hero-btn:hover{
+        background: darkorange;
+        color: white;
+    }
+
+    .container .atoms{
+        margin:200px auto;
+        width:80%;
+        height:500px;
+        background: white;
+        color:#0a2e48;
+    }
+    .container .atoms h1{
+        margin-top:7px;
+        font-size: 45px;
+        margin-left:10px;
+    }
+    
+    .container .atoms h1 span{
+        color:darkorange;
+       
+    }
+    .container .atoms .atoms-inner{
+        margin-top: 70px;
+        width:100%;
+        display: flex;
+    }
+    .container .atoms .atoms-inner ul{
+        list-style: none;
+        display: flex;
+        flex-wrap:wrap;
+        gap:10;
+    }
+    .container .atoms .atoms-inner ul li{
+        background: rgb(245, 245, 245);
+        padding: 40px 40px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+    .container .atoms .atoms-inner ul li:hover{
+        background: rgba(245, 245, 245, 0.066);
+    }
+    .container .atoms .atoms-inner a{
+        text-decoration: none;
+        color: #0a2e48;
+    }
+    .container .atoms .atoms-inner i{
+        font-size:20px;
+        color:#0a2e48;
+        margin-bottom: 13px;
+        transition:0.8s;
+    }
+    .container .atoms .atoms-inner i:hover{
+        color: darkorange;
+    }
+    .container .sofa{
+        width:80%;
+        margin:100px auto;
+        display: flex;
+        flex-wrap:wrap;
+        gap: 0;
+    }
+    .container .sofa .sofa-img{
+        width:100%;
+    }
+    .container .sofa .sofa-img img{
+        width:50%;
+    }
+    .container .sofa .eid{
+        width:100%;
+    }
+    .container .sofa .eid h1{
+        font-size:40px;
+    }
+    .container .sofa .eid .btn{
+        margin-top: 30px;
+        cursor: pointer;
+        width:50%;
+    }
+    .container .outer-dining{
+        width:90%;
+        margin: 140px auto 300px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: relative;
+    }
+    .container .outer-dining .sofas{
+        width:45%;
+        height:400px;
+        background: whitesmoke;
+    }
+    .container .outer-dining .sofas p{
+        color: blue;
+        font-size:15px;
+    }
+    .container .outer-dining .sofas i{
+        color:darkorange;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size:15px;
+    }
+    .container .outer-dining .sofas h4{
+        color:darkblue;
+    }
+    .container .outer-dining .sofas img{
+        width:80%;
+        margin-bottom: 10px;
+    }
+    .container .outer-dining #green-sofa{
+        text-align: center;
+    }
+    
+    .container .outer-dining #green-sofa img{
+        width:60%;
+        margin-top: 10px;
+    }
+    .container .outer-dining #blue-table{
+        text-align: center;
+    }
+    .container .outer-dining #blue-table img{
+        width:90%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .container .outer-dining #lamp-lighting{
+        text-align: center;
+    }
+    .container .outer-dining #lamp-lighting img{
+        width:50%;
+        margin-top: 10px;
+        margin-bottom:20px;
+    }
+    
+    .container .outer-dining #brown-sofa{
+        text-align: center;
+    }
+    .container .outer-dining #brown-sofa img{
+        width:50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .container .outer-dining #brown-table{
+        text-align: center;
+    }
+    .container .outer-dining #brown-table img{
+        width:100%;
+        margin-top: 20px;
+        margin-bottom:50px;
+     
+    }
+    
+    .container .outer-dining #showcase{
+        text-align: center;
+    }
+    .container .outer-dining #showcase img{
+        width:80%;
+        margin-bottom:40px;
+        margin-top: 10px;
+    }
+    .container .outer-dining .hero-btn{
+        margin-top: 60px;
+        cursor: pointer;
+        width:40%;
+        border: none;
+      display: inline-block;
+        padding:8px 30px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-size: 17px;
+        background: white;
+        border: 1px solid darkorange;
+        color: darkorange;
+        transition: background 0.8s;
+        text-align: center;
+        position: absolute;
+        left:28%;
+        top:100%;
+       
+    }
+     .outer-dining .hero-btn:hover{
+        background: darkorange;
+        color: white;
+    }
+
+    .container .outer-block{
+        width:100%;
+        background: #0a2e48;
+        height:500px;
+       position: relative;
+    }
+    .container .outer-block .inner-block{
+        width:90%;
+        height:300px;
+        background: darkorange;
+        position: absolute;
+        left: 50%;
+        top:15%;
+        transform: translate(-50%);
+        border-radius:20px;
+        display: flex;
+        flex-wrap: wrap;
+         gap:10px;
+    }
+    .container .outer-block .inner-block .inner-img{
+        width:45%;
+        
+    }
+    .container .outer-block .inner-block .inner-img img{
+        width:50%;
+        margin-left : 30px;
+        margin-top: 30px;
+    }
+    .container .outer-block .inner-block .innertext{
+        width:45%;
+        margin-left: 4px;
+        color:white;
+    }
+    .container .outer-block .inner-block .innertext h1{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .container .outer-block .inner-block .innertext .hero-btn{
+        margin-top: 20px;
+        cursor: pointer;
+        width:90%;
+        border: none;
+        display: inline-block;
+        padding:8px 30px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 16px;
+        background: #0a2e48;  
+        color: white;
+        transition: background 0.8s;
+        text-align: center;
+    }
+    .container .outer-block .inner-block .innertext .hero-btn:hover{
+        background: white;  
+        color: darkblue;
+    }
+    .container .outer-block .inner-block .innerul{
+        width:100%;
+        display: flex;
+        flex-wrap:wrap;
+        padding:10px;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        gap:5px;
+        color: white;
+        font-size: 12px;
+    }
+    .container .sell{
+        width:100%;
+        height: 400px;
+        background:white;
+    
+    }
+    .container .sell .sell-outer{
+        width:90%;
+        height: 120px;
+        margin: 100px auto;
+      
+        display: flex;
+        flex-wrap:wrap;
+      
+    }
+    .container .sell .sell-outer .sell-inner{
+        width:40%;
+        background: darkorange;
+        color:white;
+        
+    }
+    .container .sell .sell-outer .sell-inner p{
+        font-weight: 500;
+        font-size: 16px;
+        
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: left;
+    }
+    .container .sell .sell-outer .sell-inner p span{
+        color:#0a2e48;
+        font-size: 16px;
+    }
+    .container .sell .sell-outer .input-inner{
+        width:60%;
+        background: #0a2e48;
+    }
+    .container .sell .sell-outer .input-inner input{
+        margin-top:30px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        background: none;
+        border: 1px solid white;
+        width:90%;
+        padding:8px 20px;
+        color:white
+    }
+    .container .sell .sell-outer .input-inner .hero-btn{
+        width:40%;
+        border: none;
+        background:darkorange;
+        color: white;
+        padding:4px 8px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size:14px;
+        transition: background 0.8s;
+        margin-left: 10px;
+    }
+    .container .caclculater-outer{
+        width:100%;
+        background: #0a2e48;
+       height:600px;
+        display: flex;
+      flex-wrap:wrap;
+        
+    }
+    .container .caclculater-outer .text{
+        width:90%;
+        color: darkorange;
+        text-align:center;
+        margin:0 auto;
+    }
+    .container .caclculater-outer .text h1{
+        margin-top:10px;
+        text-align: center;
+        font-size:33px;
+    }
+    .container .caclculater-outer .calculater{
+        width:90%;
+        margin:0 auto;
+        
+    }
+    .container .caclculater-outer .calculater .calculater-inner{
+        max-width:100%;
+        border: 1px solid rgba(255, 255, 255, 0.481);
+        max-height: 450px;
+        margin: 10px 0 0 0 ;
+        background:rgba(0, 0, 1, 0.63);
+       
+    }
+    .container .caclculater-outer .calculater .calculater-inner input{
+        width:100%;
+        background: none;
+        color:white;
+        padding:10px;
+        margin-bottom:2px;
+        border: none;
+        font-size:16px;
+    }
+    .container .caclculater-outer .calculater .calculater-inner .items{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding:8px;
+    }
+    .container .caclculater-outer .calculater .calculater-inner button{
+        width: 80px;
+        height:80px;
+        border-radius: 40px;
+        border:none;
+        background:rgb(0, 0, 0.9);
+        color: white;
+        font-size:22px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .container .caclculater-outer .calculater .calculater-inner button:hover{
+        background: rgba(0, 0, 0, 0.177);
+    }
+    .container .caclculater-outer .calculater .calculater-inner button:active{
+        background: rgba(0, 0, 0, 0.016);
+    }
+}
+/* for minwidth : 481 to max 768 */
+@media (min-width: 550px) and (max-width: 768px) {
+    #fa{
+   display: inline-block;
+    font-size: 22px;
+    margin-left:5px;
+    cursor: pointer;
+    }
+    .container .header .ancrs{
+    position: absolute;
+    background:#0a2e48;
+    height:100vh;
+    width:200px;
+    color:white;
+    top:0;
+    left:-200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    }
+    .container .header  .ancrs ul  {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin:0 0;
+    align-items: left;
+    gap: 0;
+    }
+    .container .header  .ancrs ul li{
+    list-style: none;
+    background:none;
+    text-align: center;
+    padding:5px;
+    cursor: normal;
+    }
+    .container .header  .ancrs ul li:hover{
+    background:none;
+    }
+    .container .header  .ancrs a{
+    font-size: 19px;
+    margin-top: 5px;
+    display: block;
+    color: white;
+    padding:10px 40px;
+    transition: background 0.3s;
+    }
+    .container .header .ancrs a:hover{
+    background: black;
+    }
+    .container .header  .ancrs i{
+    display: none;
+    }
+
+    .container .header{
+        width:100%;
+        
+    }
+    .container .header .first{
+        width:80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        color: darkblue;
+        
+    }
+    .container .header .first .first1{
+        width:100%;
+        display: block;
+    
+    }
+    .container .header .first .first1 img{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    
+    }
+    .container .header .first .first1 h2{
+       margin-top:6px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 20px;
+    }
+    .container .header .first .first3{
+        display: none;
+       opacity: 0;
+       visibility: hidden;
+    }
+    
+    .container .header .first .first2{
+        width:100%;
+     
+    }
+    .container .header .first .first2 input{
+        width: 100%;
+        padding: 5px;
+        font-size: 13px;
+        
+    }
+    .container .main-outer{
+        background:whitesmoke;
+        width:100%;
+        height: 300px;
+        position: relative;
+    }
+    .container .main-outer  .outer{
+        width:90%;
+        height:200px;
+        border-radius: 25px;
+        background: #0a2e48;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .container .main-outer .outer .inner{
+        width:82%;
+        height:100%;
+        background-image:url(images/banner-img.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:50px auto;
+        border-radius: 25px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container .main-outer .outer .inner .inner1{
+        width:auto;
+        color: white;
+        margin-top: 5px;
+        margin-left:90px;
+    }
+    .container .main-outer .outer .inner .inner1 h1{
+        font-size:20px;
+    }
+    .container .main-outer .outer .inner .inner1 h1:nth-child(1){
+        margin-left:0px;
+        text-align: right;
+        margin-top: 80px;
+    }
+    .container .main-outer .outer .inner .btn{
+        margin-left:35px;
+        margin-top: 20px;
+        cursor: pointer;
+        width:40%;
+        border: none;
+      display: inline-block;
+        padding:8px 12px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 10px;
+        background: darkorange;
+        color: white;
+        transition: background 0.8s;
+    }
+    .container .main-outer .outer .inner .btn:hover{
+        background: white;
+        color:red;
+    }
+    .container .main-outer .outer .inner  #hero-btn{
+        margin-left:0;
+        background: white;
+        color:red;
+        transition: background 0.8s;
+    }
+    
+    .container .main-outer .outer .inner  #hero-btn:hover{
+        background: darkorange;
+        color: white;
+    }
+
+    .container .atoms{
+        margin:200px auto;
+        width:80%;
+        height:500px;
+        background: white;
+        color:#0a2e48;
+    }
+    .container .atoms h1{
+        margin-top:7px;
+        font-size: 35px;
+        margin-left:10px;
+    }
+    
+    .container .atoms h1 span{
+        color:darkorange;
+       
+    }
+    .container .atoms .atoms-inner{
+        margin-top: 70px;
+        width:100%;
+        display: flex;
+    }
+    .container .atoms .atoms-inner ul{
+        list-style: none;
+        display: flex;
+        flex-wrap:wrap;
+        gap:10;
+    }
+    .container .atoms .atoms-inner ul li{
+        background: rgb(245, 245, 245);
+        padding: 40px 40px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+    .container .atoms .atoms-inner ul li:hover{
+        background: rgba(245, 245, 245, 0.066);
+    }
+    .container .atoms .atoms-inner a{
+        text-decoration: none;
+        color: #0a2e48;
+    }
+    .container .atoms .atoms-inner i{
+        font-size:20px;
+        color:#0a2e48;
+        margin-bottom: 13px;
+        transition:0.8s;
+    }
+    .container .atoms .atoms-inner i:hover{
+        color: darkorange;
+    }
+    .container .sofa{
+        width:80%;
+        margin:100px auto;
+        display: flex;
+        flex-wrap:wrap;
+        gap: 0;
+    }
+    .container .sofa .sofa-img{
+        width:100%;
+    }
+    .container .sofa .sofa-img img{
+        width:90%;
+    }
+    .container .sofa .eid{
+        width:100%;
+    }
+    .container .sofa .eid h1{
+        font-size:40px;
+    }
+    .container .sofa .eid .btn{
+        margin-top: 30px;
+        cursor: pointer;
+        width:50%;
+    }
+    .container .outer-dining{
+        width:90%;
+        margin: 140px auto 300px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: relative;
+    }
+    .container .outer-dining .sofas{
+        width:45%;
+        height:250px;
+        background: whitesmoke;
+    }
+    .container .outer-dining .sofas p{
+        color: blue;
+        font-size:15px;
+    }
+    .container .outer-dining .sofas i{
+        color:darkorange;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size:15px;
+    }
+    .container .outer-dining .sofas h4{
+        color:darkblue;
+    }
+    .container .outer-dining .sofas img{
+        width:80%;
+        margin-bottom: 10px;
+    }
+    .container .outer-dining #green-sofa{
+        text-align: center;
+    }
+    
+    .container .outer-dining #green-sofa img{
+        width:60%;
+        margin-top: 10px;
+    }
+    .container .outer-dining #blue-table{
+        text-align: center;
+    }
+    .container .outer-dining #blue-table img{
+        width:90%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .container .outer-dining #lamp-lighting{
+        text-align: center;
+    }
+    .container .outer-dining #lamp-lighting img{
+        width:50%;
+        margin-top: 10px;
+        margin-bottom:20px;
+    }
+    
+    .container .outer-dining #brown-sofa{
+        text-align: center;
+    }
+    .container .outer-dining #brown-sofa img{
+        width:50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .container .outer-dining #brown-table{
+        text-align: center;
+    }
+    .container .outer-dining #brown-table img{
+        width:100%;
+        margin-top: 20px;
+        margin-bottom:50px;
+     
+    }
+    
+    .container .outer-dining #showcase{
+        text-align: center;
+    }
+    .container .outer-dining #showcase img{
+        width:80%;
+        margin-bottom:40px;
+        margin-top: 10px;
+    }
+    .container .outer-dining .hero-btn{
+        margin-top: 60px;
+        cursor: pointer;
+        width:40%;
+        border: none;
+      display: inline-block;
+        padding:8px 30px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-size: 17px;
+        background: white;
+        border: 1px solid darkorange;
+        color: darkorange;
+        transition: background 0.8s;
+        text-align: center;
+        position: absolute;
+        left:28%;
+        top:100%;
+       
+    }
+     .outer-dining .hero-btn:hover{
+        background: darkorange;
+        color: white;
+    }
+
+    .container .outer-block{
+        width:100%;
+        background: #0a2e48;
+        height:500px;
+       position: relative;
+    }
+    .container .outer-block .inner-block{
+        width:90%;
+        height:300px;
+        background: darkorange;
+        position: absolute;
+        left: 50%;
+        top:15%;
+        transform: translate(-50%);
+        border-radius:20px;
+        display: flex;
+        flex-wrap: wrap;
+         gap:10px;
+    }
+    .container .outer-block .inner-block .inner-img{
+        width:45%;
+        
+    }
+    .container .outer-block .inner-block .inner-img img{
+        width:50%;
+        margin-left : 30px;
+        margin-top: 30px;
+    }
+    .container .outer-block .inner-block .innertext{
+        width:45%;
+        margin-left: 4px;
+        color:white;
+    }
+    .container .outer-block .inner-block .innertext h1{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .container .outer-block .inner-block .innertext .hero-btn{
+        margin-top: 20px;
+        cursor: pointer;
+        width:90%;
+        border: none;
+        display: inline-block;
+        padding:8px 30px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 16px;
+        background: #0a2e48;  
+        color: white;
+        transition: background 0.8s;
+        text-align: center;
+    }
+    .container .outer-block .inner-block .innertext .hero-btn:hover{
+        background: white;  
+        color: darkblue;
+    }
+    .container .outer-block .inner-block .innerul{
+        width:100%;
+        display: flex;
+        flex-wrap:wrap;
+        padding:10px;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        gap:5px;
+        color: white;
+        font-size: 12px;
+    }
+    .container .sell{
+        width:100%;
+        height: 400px;
+        background:white;
+    
+    }
+    .container .sell .sell-outer{
+        width:90%;
+        height: 120px;
+        margin: 100px auto;
+      
+        display: flex;
+        flex-wrap:wrap;
+      
+    }
+    .container .sell .sell-outer .sell-inner{
+        width:40%;
+        background: darkorange;
+        color:white;
+        
+    }
+    .container .sell .sell-outer .sell-inner p{
+        font-weight: 500;
+        font-size: 16px;
+        
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: left;
+    }
+    .container .sell .sell-outer .sell-inner p span{
+        color:#0a2e48;
+        font-size: 16px;
+    }
+    .container .sell .sell-outer .input-inner{
+        width:60%;
+        background: #0a2e48;
+    }
+    .container .sell .sell-outer .input-inner input{
+        margin-top:30px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        background: none;
+        border: 1px solid white;
+        width:90%;
+        padding:8px 20px;
+        color:white
+    }
+    .container .sell .sell-outer .input-inner .hero-btn{
+        width:40%;
+        border: none;
+        background:darkorange;
+        color: white;
+        padding:4px 8px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size:14px;
+        transition: background 0.8s;
+        margin-left: 10px;
+    }
+    .container .caclculater-outer{
+        width:100%;
+        background: #0a2e48;
+       height:600px;
+        display: flex;
+      flex-wrap:wrap;
+        
+    }
+    .container .caclculater-outer .text{
+        width:90%;
+        color: darkorange;
+        text-align:center;
+        margin:0 auto;
+    }
+    .container .caclculater-outer .text h1{
+        margin-top:10px;
+        text-align: center;
+        font-size:33px;
+    }
+    .container .caclculater-outer .calculater{
+        width:90%;
+        margin:0 auto;
+        
+    }
+    .container .caclculater-outer .calculater .calculater-inner{
+        max-width:100%;
+        border: 1px solid rgba(255, 255, 255, 0.481);
+        max-height: 450px;
+        margin: 10px 0 0 0 ;
+        background:rgba(0, 0, 1, 0.63);
+       
+    }
+    .container .caclculater-outer .calculater .calculater-inner input{
+        width:100%;
+        background: none;
+        color:white;
+        padding:10px;
+        margin-bottom:2px;
+        border: none;
+        font-size:16px;
+    }
+    .container .caclculater-outer .calculater .calculater-inner .items{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding:8px;
+    }
+    .container .caclculater-outer .calculater .calculater-inner button{
+        width: 80px;
+        height:80px;
+        border-radius: 40px;
+        border:none;
+        background:rgb(0, 0, 0.9);
+        color: white;
+        font-size:22px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .container .caclculater-outer .calculater .calculater-inner button:hover{
+        background: rgba(0, 0, 0, 0.177);
+    }
+    .container .caclculater-outer .calculater .calculater-inner button:active{
+        background: rgba(0, 0, 0, 0.016);
+    }
+}
+/* for 510px same as this */
+@media  screen and (max-width: 549px){
+    #fa{
+   display: inline-block;
+    font-size: 22px;
+    margin-left:5px;
+    cursor: pointer;
+    }
+    .container .header .ancrs{
+    position: absolute;
+    background:#0a2e48;
+    height:100vh;
+    width:200px;
+    color:white;
+    top:0;
+    left:-200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    }
+    .container .header  .ancrs ul  {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin:0 0;
+    align-items: left;
+    gap: 0;
+    }
+    .container .header  .ancrs ul li{
+    list-style: none;
+    background:none;
+    text-align: center;
+    padding:5px;
+    cursor: normal;
+    }
+    .container .header  .ancrs ul li:hover{
+    background:none;
+    }
+    .container .header  .ancrs a{
+    font-size: 19px;
+    margin-top: 5px;
+    display: block;
+    color: white;
+    padding:10px 40px;
+    transition: background 0.3s;
+    }
+    .container .header .ancrs a:hover{
+    background: black;
+    }
+    .container .header  .ancrs i{
+    display: none;
+    }
+
+    .container .header{
+        width:100%;
+        
+    }
+    .container .header .first{
+        width:80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        color: darkblue;
+        
+    }
+    .container .header .first .first1{
+        width:100%;
+        display: block;
+    
+    }
+    .container .header .first .first1 img{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    
+    }
+    .container .header .first .first1 h2{
+       margin-top:6px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 20px;
+    }
+    .container .header .first .first3{
+        display: none;
+       opacity: 0;
+       visibility: hidden;
+    }
+    
+    .container .header .first .first2{
+        width:100%;
+     
+    }
+    .container .header .first .first2 input{
+        width: 100%;
+        padding: 5px;
+        font-size: 13px;
+        
+    }
+    .container .main-outer{
+        background:whitesmoke;
+        width:100%;
+        height: 300px;
+        position: relative;
+    }
+    .container .main-outer  .outer{
+        width:90%;
+        height:200px;
+        border-radius: 25px;
+        background: #0a2e48;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .container .main-outer .outer .inner{
+        width:82%;
+        height:100%;
+        background-image:url(images/banner-img.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:50px auto;
+        border-radius: 25px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container .main-outer .outer .inner .inner1{
+        width:auto;
+        color: white;
+        margin-top: 5px;
+        margin-left:90px;
+    }
+    .container .main-outer .outer .inner .inner1 h1{
+        font-size:20px;
+    }
+    .container .main-outer .outer .inner .inner1 h1:nth-child(1){
+        margin-left:0px;
+        text-align: right;
+        margin-top: 80px;
+    }
+    .container .main-outer .outer .inner .btn{
+        margin-left:35px;
+        margin-top: 20px;
+        cursor: pointer;
+        width:40%;
+        border: none;
+      display: inline-block;
+        padding:8px 12px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 10px;
+        background: darkorange;
+        color: white;
+        transition: background 0.8s;
+    }
+    .container .main-outer .outer .inner .btn:hover{
+        background: white;
+        color:red;
+    }
+    .container .main-outer .outer .inner  #hero-btn{
+        margin-left:0;
+        background: white;
+        color:red;
+        transition: background 0.8s;
+    }
+    
+    .container .main-outer .outer .inner  #hero-btn:hover{
+        background: darkorange;
+        color: white;
+    }
+
+    .container .atoms{
+        margin:200px auto;
+        width:80%;
+        height:500px;
+        background: white;
+        color:#0a2e48;
+    }
+    .container .atoms h1{
+        margin-top:7px;
+        font-size: 35px;
+        margin-left:10px;
+    }
+    
+    .container .atoms h1 span{
+        color:darkorange;
+       
+    }
+    .container .atoms .atoms-inner{
+        margin-top: 70px;
+        width:100%;
+        display: flex;
+    }
+    .container .atoms .atoms-inner ul{
+        list-style: none;
+        display: flex;
+        flex-wrap:wrap;
+        gap:10;
+    }
+    .container .atoms .atoms-inner ul li{
+        background: rgb(245, 245, 245);
+        padding: 40px 40px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+    .container .atoms .atoms-inner ul li:hover{
+        background: rgba(245, 245, 245, 0.066);
+    }
+    .container .atoms .atoms-inner a{
+        text-decoration: none;
+        color: #0a2e48;
+    }
+    .container .atoms .atoms-inner i{
+        font-size:20px;
+        color:#0a2e48;
+        margin-bottom: 13px;
+        transition:0.8s;
+    }
+    .container .atoms .atoms-inner i:hover{
+        color: darkorange;
+    }
+    .container .sofa{
+        width:80%;
+        margin:100px auto;
+        display: flex;
+        flex-wrap:wrap;
+        gap: 0;
+    }
+    .container .sofa .sofa-img{
+        width:100%;
+    }
+    .container .sofa .sofa-img img{
+        width:90%;
+    }
+    .container .sofa .eid{
+        width:100%;
+    }
+    .container .sofa .eid h1{
+        font-size:40px;
+    }
+    .container .sofa .eid .btn{
+        margin-top: 30px;
+        cursor: pointer;
+        width:50%;
+    }
+    .container .outer-dining{
+        width:90%;
+        margin: 140px auto 300px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: relative;
+    }
+    .container .outer-dining .sofas{
+        width:45%;
+        height:250px;
+        background: whitesmoke;
+    }
+    .container .outer-dining .sofas p{
+        color: blue;
+        font-size:15px;
+    }
+    .container .outer-dining .sofas i{
+        color:darkorange;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size:15px;
+    }
+    .container .outer-dining .sofas h4{
+        color:darkblue;
+    }
+    .container .outer-dining .sofas img{
+        width:80%;
+        margin-bottom: 10px;
+    }
+    .container .outer-dining #green-sofa{
+        text-align: center;
+    }
+    
+    .container .outer-dining #green-sofa img{
+        width:60%;
+        margin-top: 10px;
+    }
+    .container .outer-dining #blue-table{
+        text-align: center;
+    }
+    .container .outer-dining #blue-table img{
+        width:90%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .container .outer-dining #lamp-lighting{
+        text-align: center;
+    }
+    .container .outer-dining #lamp-lighting img{
+        width:50%;
+        margin-top: 10px;
+        margin-bottom:20px;
+    }
+    
+    .container .outer-dining #brown-sofa{
+        text-align: center;
+    }
+    .container .outer-dining #brown-sofa img{
+        width:50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .container .outer-dining #brown-table{
+        text-align: center;
+    }
+    .container .outer-dining #brown-table img{
+        width:100%;
+        margin-top: 20px;
+        margin-bottom:50px;
+     
+    }
+    
+    .container .outer-dining #showcase{
+        text-align: center;
+    }
+    .container .outer-dining #showcase img{
+        width:80%;
+        margin-bottom:40px;
+        margin-top: 10px;
+    }
+    .container .outer-dining .hero-btn{
+        margin-top: 60px;
+        cursor: pointer;
+        width:40%;
+        border: none;
+      display: inline-block;
+        padding:8px 30px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-size: 17px;
+        background: white;
+        border: 1px solid darkorange;
+        color: darkorange;
+        transition: background 0.8s;
+        text-align: center;
+        position: absolute;
+        left:28%;
+        top:100%;
+       
+    }
+     .outer-dining .hero-btn:hover{
+        background: darkorange;
+        color: white;
+    }
+
+    .container .outer-block{
+        width:100%;
+        background: #0a2e48;
+        height:500px;
+       position: relative;
+    }
+    .container .outer-block .inner-block{
+        width:90%;
+        height:300px;
+        background: darkorange;
+        position: absolute;
+        left: 50%;
+        top:15%;
+        transform: translate(-50%);
+        border-radius:20px;
+        display: flex;
+        flex-wrap: wrap;
+         gap:10px;
+    }
+    .container .outer-block .inner-block .inner-img{
+        width:45%;
+        
+    }
+    .container .outer-block .inner-block .inner-img img{
+        width:50%;
+        margin-left : 30px;
+        margin-top: 30px;
+    }
+    .container .outer-block .inner-block .innertext{
+        width:45%;
+        margin-left: 4px;
+        color:white;
+    }
+    .container .outer-block .inner-block .innertext h1{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .container .outer-block .inner-block .innertext .hero-btn{
+        margin-top: 20px;
+        cursor: pointer;
+        width:90%;
+        border: none;
+        display: inline-block;
+        padding:8px 30px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 16px;
+        background: #0a2e48;  
+        color: white;
+        transition: background 0.8s;
+        text-align: center;
+    }
+    .container .outer-block .inner-block .innertext .hero-btn:hover{
+        background: white;  
+        color: darkblue;
+    }
+    .container .outer-block .inner-block .innerul{
+        width:100%;
+        display: flex;
+        flex-wrap:wrap;
+        padding:10px;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        gap:5px;
+        color: white;
+        font-size: 12px;
+    }
+    .container .sell{
+        width:100%;
+        height: 400px;
+        background:white;
+    
+    }
+    .container .sell .sell-outer{
+        width:90%;
+        height: 120px;
+        margin: 100px auto;
+      
+        display: flex;
+        flex-wrap:wrap;
+      
+    }
+    .container .sell .sell-outer .sell-inner{
+        width:40%;
+        background: darkorange;
+        color:white;
+        
+    }
+    .container .sell .sell-outer .sell-inner p{
+        font-weight: 500;
+        font-size: 16px;
+        
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: left;
+    }
+    .container .sell .sell-outer .sell-inner p span{
+        color:#0a2e48;
+        font-size: 16px;
+    }
+    .container .sell .sell-outer .input-inner{
+        width:60%;
+        background: #0a2e48;
+    }
+    .container .sell .sell-outer .input-inner input{
+        margin-top:30px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        background: none;
+        border: 1px solid white;
+        width:90%;
+        padding:8px 20px;
+        color:white
+    }
+    .container .sell .sell-outer .input-inner .hero-btn{
+        width:40%;
+        border: none;
+        background:darkorange;
+        color: white;
+        padding:4px 8px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size:14px;
+        transition: background 0.8s;
+        margin-left: 10px;
+    }
+    .container .caclculater-outer{
+        width:100%;
+        background: #0a2e48;
+       height:600px;
+        display: flex;
+      flex-wrap:wrap;
+        
+    }
+    .container .caclculater-outer .text{
+        width:90%;
+        color: darkorange;
+        text-align:center;
+        margin:0 auto;
+    }
+    .container .caclculater-outer .text h1{
+        margin-top:10px;
+        text-align: center;
+        font-size:33px;
+    }
+    .container .caclculater-outer .calculater{
+        width:90%;
+        margin:0 auto;
+        
+    }
+    .container .caclculater-outer .calculater .calculater-inner{
+        max-width:100%;
+        border: 1px solid rgba(255, 255, 255, 0.481);
+        max-height: 450px;
+        margin: 10px 0 0 0 ;
+        background:rgba(0, 0, 1, 0.63);
+       
+    }
+    .container .caclculater-outer .calculater .calculater-inner input{
+        width:100%;
+        background: none;
+        color:white;
+        padding:10px;
+        margin-bottom:2px;
+        border: none;
+        font-size:16px;
+    }
+    .container .caclculater-outer .calculater .calculater-inner .items{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding:8px;
+    }
+    .container .caclculater-outer .calculater .calculater-inner button{
+        width: 80px;
+        height:80px;
+        border-radius: 40px;
+        border:none;
+        background:rgb(0, 0, 0.9);
+        color: white;
+        font-size:22px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .container .caclculater-outer .calculater .calculater-inner button:hover{
+        background: rgba(0, 0, 0, 0.177);
+    }
+    .container .caclculater-outer .calculater .calculater-inner button:active{
+        background: rgba(0, 0, 0, 0.016);
+    }
+}
+/* for 480px width */
+@media  screen and (max-width: 480px){
+    #fa{
+   display: inline-block;
+    font-size: 22px;
+    margin-left:5px;
+    cursor: pointer;
+    }
+    .container .header .ancrs{
+    position: absolute;
+    background:#0a2e48;
+    height:100vh;
+    width:200px;
+    color:white;
+    top:0;
+    left:-200px;
+    text-align: left;
+    z-index: 2;
+    transition: 1s;
+    cursor: pointer;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    }
+    .container .header  .ancrs ul  {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin:0 0;
+    align-items: left;
+    gap: 0;
+    }
+    .container .header  .ancrs ul li{
+    list-style: none;
+    background:none;
+    text-align: center;
+    padding:5px;
+    cursor: normal;
+    }
+    .container .header  .ancrs ul li:hover{
+    background:none;
+    }
+    .container .header  .ancrs a{
+    font-size: 19px;
+    margin-top: 5px;
+    display: block;
+    color: white;
+    padding:10px 40px;
+    transition: background 0.3s;
+    }
+    .container .header .ancrs a:hover{
+    background: black;
+    }
+    .container .header  .ancrs i{
+    display: none;
+    }
+
+    .container .header{
+        width:100%;
+        
+    }
+    .container .header .first{
+        width:80%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: flex-start;
+        color: darkblue;
+        
+    }
+    .container .header .first .first1{
+        width:100%;
+        display: block;
+    
+    }
+    .container .header .first .first1 img{
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    
+    }
+    .container .header .first .first1 h2{
+       margin-top:6px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       font-size: 20px;
+    }
+    .container .header .first .first3{
+        display: none;
+       opacity: 0;
+       visibility: hidden;
+    }
+    
+    .container .header .first .first2{
+        width:100%;
+     
+    }
+    .container .header .first .first2 input{
+        width: 100%;
+        padding: 5px;
+        font-size: 13px;
+        
+    }
+    .container .main-outer{
+        background:whitesmoke;
+        width:100%;
+        height: 300px;
+        position: relative;
+    }
+    .container .main-outer  .outer{
+        width:90%;
+        height:200px;
+        border-radius: 25px;
+        background: #0a2e48;
+        position: absolute;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+    }
+    .container .main-outer .outer .inner{
+        width:82%;
+        height:100%;
+        background-image:url(images/banner-img.jpg) ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin:50px auto;
+        border-radius: 25px;
+        display: flex;
+        justify-content: flex-start;
+    }
+    .container .main-outer .outer .inner .inner1{
+        width:auto;
+        color: white;
+        margin-top: 5px;
+        margin-left:90px;
+    }
+    .container .main-outer .outer .inner .inner1 h1{
+        font-size:20px;
+    }
+    .container .main-outer .outer .inner .inner1 h1:nth-child(1){
+        margin-left:0px;
+        text-align: right;
+        margin-top: 80px;
+    }
+    .container .main-outer .outer .inner .btn{
+        margin-left:35px;
+        margin-top: 20px;
+        cursor: pointer;
+        width:40%;
+        border: none;
+      display: inline-block;
+        padding:8px 12px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 10px;
+        background: darkorange;
+        color: white;
+        transition: background 0.8s;
+    }
+    .container .main-outer .outer .inner .btn:hover{
+        background: white;
+        color:red;
+    }
+    .container .main-outer .outer .inner  #hero-btn{
+        margin-left:0;
+        background: white;
+        color:red;
+        transition: background 0.8s;
+    }
+    
+    .container .main-outer .outer .inner  #hero-btn:hover{
+        background: darkorange;
+        color: white;
+    }
+
+    .container .atoms{
+        margin:200px auto;
+        width:80%;
+        height:500px;
+        background: white;
+        color:#0a2e48;
+    }
+    .container .atoms h1{
+        margin-top:7px;
+        font-size: 35px;
+        margin-left:10px;
+    }
+    
+    .container .atoms h1 span{
+        color:darkorange;
+       
+    }
+    .container .atoms .atoms-inner{
+        margin-top: 70px;
+        width:100%;
+        display: flex;
+    }
+    .container .atoms .atoms-inner ul{
+        list-style: none;
+        display: flex;
+        flex-wrap:wrap;
+        gap:10;
+    }
+    .container .atoms .atoms-inner ul li{
+        background: rgb(245, 245, 245);
+        padding: 40px 40px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 500;
+        box-sizing: border-box;
+        border-radius: 10px;
+        margin-left: 8px;
+        cursor: pointer;
+    }
+    .container .atoms .atoms-inner ul li:hover{
+        background: rgba(245, 245, 245, 0.066);
+    }
+    .container .atoms .atoms-inner a{
+        text-decoration: none;
+        color: #0a2e48;
+    }
+    .container .atoms .atoms-inner i{
+        font-size:20px;
+        color:#0a2e48;
+        margin-bottom: 13px;
+        transition:0.8s;
+    }
+    .container .atoms .atoms-inner i:hover{
+        color: darkorange;
+    }
+    .container .sofa{
+        width:80%;
+        margin:100px auto;
+        display: flex;
+        flex-wrap:wrap;
+        gap: 0;
+    }
+    .container .sofa .sofa-img{
+        width:100%;
+    }
+    .container .sofa .sofa-img img{
+        width:90%;
+    }
+    .container .sofa .eid{
+        width:100%;
+    }
+    .container .sofa .eid h1{
+        font-size:40px;
+    }
+    .container .sofa .eid .btn{
+        margin-top: 30px;
+        cursor: pointer;
+        width:50%;
+    }
+    .container .outer-dining{
+        width:90%;
+        margin: 140px auto 300px auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        position: relative;
+    }
+    .container .outer-dining .sofas{
+        width:45%;
+        height:250px;
+        background: whitesmoke;
+    }
+    .container .outer-dining .sofas p{
+        color: blue;
+        font-size:15px;
+    }
+    .container .outer-dining .sofas i{
+        color:darkorange;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size:15px;
+    }
+    .container .outer-dining .sofas h4{
+        color:darkblue;
+    }
+    .container .outer-dining .sofas img{
+        width:80%;
+        margin-bottom: 10px;
+    }
+    .container .outer-dining #green-sofa{
+        text-align: center;
+    }
+    
+    .container .outer-dining #green-sofa img{
+        width:60%;
+        margin-top: 10px;
+    }
+    .container .outer-dining #blue-table{
+        text-align: center;
+    }
+    .container .outer-dining #blue-table img{
+        width:90%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .container .outer-dining #lamp-lighting{
+        text-align: center;
+    }
+    .container .outer-dining #lamp-lighting img{
+        width:50%;
+        margin-top: 10px;
+        margin-bottom:20px;
+    }
+    
+    .container .outer-dining #brown-sofa{
+        text-align: center;
+    }
+    .container .outer-dining #brown-sofa img{
+        width:50%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .container .outer-dining #brown-table{
+        text-align: center;
+    }
+    .container .outer-dining #brown-table img{
+        width:100%;
+        margin-top: 20px;
+        margin-bottom:50px;
+     
+    }
+    
+    .container .outer-dining #showcase{
+        text-align: center;
+    }
+    .container .outer-dining #showcase img{
+        width:80%;
+        margin-bottom:40px;
+        margin-top: 10px;
+    }
+    .container .outer-dining .hero-btn{
+        margin-top: 60px;
+        cursor: pointer;
+        width:40%;
+        border: none;
+      display: inline-block;
+        padding:8px 30px;
+        box-sizing: border-box;
+        border-radius: 20px;
+        font-size: 17px;
+        background: white;
+        border: 1px solid darkorange;
+        color: darkorange;
+        transition: background 0.8s;
+        text-align: center;
+        position: absolute;
+        left:28%;
+        top:100%;
+       
+    }
+     .outer-dining .hero-btn:hover{
+        background: darkorange;
+        color: white;
+    }
+
+    .container .outer-block{
+        width:100%;
+        background: #0a2e48;
+        height:500px;
+       position: relative;
+    }
+    .container .outer-block .inner-block{
+        width:90%;
+        height:300px;
+        background: darkorange;
+        position: absolute;
+        left: 50%;
+        top:15%;
+        transform: translate(-50%);
+        border-radius:20px;
+        display: flex;
+        flex-wrap: wrap;
+         gap:10px;
+    }
+    .container .outer-block .inner-block .inner-img{
+        width:45%;
+        
+    }
+    .container .outer-block .inner-block .inner-img img{
+        width:50%;
+        margin-left : 30px;
+        margin-top: 30px;
+    }
+    .container .outer-block .inner-block .innertext{
+        width:45%;
+        margin-left: 4px;
+        color:white;
+    }
+    .container .outer-block .inner-block .innertext h1{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .container .outer-block .inner-block .innertext .hero-btn{
+        margin-top: 20px;
+        cursor: pointer;
+        width:90%;
+        border: none;
+        display: inline-block;
+        padding:8px 30px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        font-size: 16px;
+        background: #0a2e48;  
+        color: white;
+        transition: background 0.8s;
+        text-align: center;
+    }
+    .container .outer-block .inner-block .innertext .hero-btn:hover{
+        background: white;  
+        color: darkblue;
+    }
+    .container .outer-block .inner-block .innerul{
+        width:100%;
+        display: flex;
+        flex-wrap:wrap;
+        padding:10px;
+        box-sizing: border-box;
+        justify-content: flex-start;
+        gap:5px;
+        color: white;
+        font-size: 12px;
+    }
+    .container .sell{
+        width:100%;
+        height: 400px;
+        background:white;
+    
+    }
+    .container .sell .sell-outer{
+        width:90%;
+        height: 120px;
+        margin: 100px auto;
+      
+        display: flex;
+        flex-wrap:wrap;
+      
+    }
+    .container .sell .sell-outer .sell-inner{
+        width:40%;
+        background: darkorange;
+        color:white;
+        
+    }
+    .container .sell .sell-outer .sell-inner p{
+        font-weight: 500;
+        font-size: 16px;
+        
+        margin-top: 10px;
+        margin-left: 0;
+        text-align: left;
+    }
+    .container .sell .sell-outer .sell-inner p span{
+        color:#0a2e48;
+        font-size: 16px;
+    }
+    .container .sell .sell-outer .input-inner{
+        width:60%;
+        background: #0a2e48;
+    }
+    .container .sell .sell-outer .input-inner input{
+        margin-top:30px;
+        margin-left: 10px;
+        margin-bottom: 5px;
+        background: none;
+        border: 1px solid white;
+        width:90%;
+        padding:8px 20px;
+        color:white
+    }
+    .container .sell .sell-outer .input-inner .hero-btn{
+        width:40%;
+        border: none;
+        background:darkorange;
+        color: white;
+        padding:4px 8px;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size:14px;
+        transition: background 0.8s;
+        margin-left: 10px;
+    }
+    .container .caclculater-outer{
+        width:100%;
+        background: #0a2e48;
+       height:600px;
+        display: flex;
+      flex-wrap:wrap;
+        
+    }
+    .container .caclculater-outer .text{
+        width:90%;
+        color: darkorange;
+        text-align:center;
+        margin:0 auto;
+    }
+    .container .caclculater-outer .text h1{
+        margin-top:10px;
+        text-align: center;
+        font-size:33px;
+    }
+    .container .caclculater-outer .calculater{
+        width:90%;
+        margin:0 auto;
+        
+    }
+    .container .caclculater-outer .calculater .calculater-inner{
+        max-width:100%;
+        border: 1px solid rgba(255, 255, 255, 0.481);
+        max-height: 450px;
+        margin: 10px 0 0 0 ;
+        background:rgba(0, 0, 1, 0.63);
+       
+    }
+    .container .caclculater-outer .calculater .calculater-inner input{
+        width:100%;
+        background: none;
+        color:white;
+        padding:10px;
+        margin-bottom:2px;
+        border: none;
+        font-size:16px;
+    }
+    .container .caclculater-outer .calculater .calculater-inner .items{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding:8px;
+    }
+    .container .caclculater-outer .calculater .calculater-inner button{
+        width: 80px;
+        height:80px;
+        border-radius: 40px;
+        border:none;
+        background:rgb(0, 0, 0.9);
+        color: white;
+        font-size:22px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .container .caclculater-outer .calculater .calculater-inner button:hover{
+        background: rgba(0, 0, 0, 0.177);
+    }
+    .container .caclculater-outer .calculater .calculater-inner button:active{
+        background: rgba(0, 0, 0, 0.016);
+    }
+}

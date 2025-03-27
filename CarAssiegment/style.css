@@ -1,0 +1,817 @@
+*{
+margin:0;
+padding:0;
+font-family: arial;
+}
+.container{
+  width:100%;
+  height:auto;
+  background: #eee;
+
+}
+/*-----this is the part of header-------*/
+
+.container .header{
+  background:#000;
+  height:100px;
+  color:white;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .header .logo{
+  width:300px;
+  height:80px;
+  margin-top: 0px;
+  margin-left: 50px;
+}
+.container .header .logo img{
+  width:35%;
+  object-fit: cover;
+  float:left;
+
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+.container .header .logo img:hover{
+ transform:scale(1.3);
+ transition: 1.3s;
+ cursor: pointer;
+}
+.container .header .logo h1{
+  margin-top: 25px;
+  font-size:35px;
+}
+.container .header .nav ul{
+  display: flex;
+  list-style: none;
+  gap:45px;
+  font-size:21px;
+  margin-right:150px;
+
+}
+.container .header .nav a{
+  text-decoration: none;
+  color:white;
+   transition: all ease 0.8s;
+}
+.container .header .nav a:hover{
+  text-decoration: underline;
+  text-decoration-color: #eee;
+  transition: all ease 0.8s;
+}
+.container .header .nav #icon{
+  font-size:32px;
+  margin-left: 40px;
+}
+.container .header .nav #icon:hover{
+  color:blue;
+}
+
+
+/*-----this is the part of body-------*/
+
+.container .body{
+  width:100%;
+  height:550px;
+  background:#fff;
+    position: relative;
+}
+.container .body .text{
+  width:500px;
+  float: left;
+  position: absolute;
+  top:50%;
+  left:5%;
+
+}
+.container .body .text h1{
+  font-size:45px;
+  margin-bottom: 10px;
+}
+.container .body .text p{
+  font-size:19px;
+  margin-bottom: 8px;
+}
+.container .body .text button{
+  width: 180px;
+  border-radius: 10px;
+  background: blue;
+  color:white;
+  padding:10px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 5px;
+  transition: 1s;
+}
+.container .body .text button:hover{
+  background: #000;
+  cursor: pointer;
+}
+.container .body .img{
+  width:700px;
+  height:100%;
+  float: right;
+}
+.container .body .img img{
+  width:100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*-----this is the part of footer-------*/
+.container .footer{
+  width:100%;
+  height:50px;
+  background:#000;
+  text-align: center;
+  padding:10px;
+  box-sizing: border-box;
+}
+.container .footer a{
+  text-decoration: none;
+  color: white;
+  font-size: 26px;
+
+}
+
+
+
+/*-----About Page-------*/
+
+.container .wraper{
+  width:100%;
+  height:550px;
+  background:#000;
+  position: relative;
+}
+.container .wraper .text-about{
+  width:500px;
+  color:#fff;
+  float:left;
+  position: absolute;
+  top: 25%;
+  left:8%;
+}
+.container .wraper .text-about h1{
+  margin-bottom: 20px;
+}
+.container .wraper .text-about p{
+  text-align: justify;
+}
+.container .wraper .text-about h1 a{
+  color:white;
+  font-size: 45px;
+}
+.container .wraper .text-about button{
+  width: 180px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.5);
+  color:white;
+  padding:10px 20px;
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: 1s;
+}
+.container .wraper .text-about button:hover{
+  background: blue;
+  cursor: pointer;
+}
+ .container .wraper .img-about{
+   float:right;
+   width:700px;
+   height: 100%;
+ }
+  .container .wraper .img-about img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+
+/*---------Cars Page------*/
+
+.container .cars-body{
+  width:100%;
+  height:680px;
+  background:#fff;
+  position: relative;
+}
+.container .cars-body .civic{
+  width:400px;
+  height:300px;
+  background: #eee;
+  margin:0 0 30px 20px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  float: left;
+}
+.container .cars-body .civic img{
+  margin-top: 5px;
+  width: 100%;
+  height: 55%;
+  object-fit:cover;
+  transition:1s;
+
+}
+.container .cars-body .civic img:hover{
+	transform:scale(1.1);
+    transition:1.3s;
+    cursor: pointer;
+}
+.container .cars-body .civic h2{
+  margin-bottom: 2px;
+}
+.container .cars-body .civic p{
+  margin-bottom: 3px;
+}
+.container .cars-body .civic p span{
+  color:blue;
+  font-size:20px;
+  font-weight: bolder;
+
+}
+.container .cars-body .civic .btn{
+  width: 180px;
+  border-radius: 10px;
+  background: #000;
+  color:white;
+  padding:10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.container .cars-body .civic .btn:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+
+
+.container .cars-body .landcruser{
+    width:415px;
+  height:300px;
+  background: #eee;
+  margin:0 0 20px 20px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  float: left;
+}
+.container .cars-body .landcruser img{
+  margin-top: 5px;
+  width: 100%;
+  height: 55%;
+  object-fit:cover;
+}
+.container .cars-body .landcruser img:hover{
+  transform:scale(1.1);
+    transition:1.3s;
+    cursor: pointer;
+}
+.container .cars-body .landcruser h2{
+  margin-bottom: 2px;
+}
+.container .cars-body .landcruser p{
+  margin-bottom: 3px;
+}
+.container .cars-body .landcruser p span{
+  color:blue;
+  font-size:20px;
+  font-weight: bolder;
+
+}
+.container .cars-body .landcruser .btn{
+  width: 180px;
+  border-radius: 10px;
+  background: #000;
+  color:white;
+  padding:10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.container .cars-body .landcruser .btn:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+
+.container .cars-body .hilux{
+    width:415px;
+  height:300px;
+  background: #eee;
+  margin:0 0 0 20px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  float: left;
+}
+.container .cars-body .hilux img{
+  margin-top: 5px;
+  width: 100%;
+  height: 55%;
+  object-fit:cover;
+  transition: 1s;
+}
+.container .cars-body .hilux img:hover{
+  transform:scale(1.1);
+    transition:1.3s;
+    cursor: pointer;
+}
+.container .cars-body .hilux h2{
+  margin-bottom: 2px;
+}
+.container .cars-body .hilux p{
+  margin-bottom: 3px;
+}
+.container .cars-body .hilux p span{
+  color:blue;
+  font-size:20px;
+  font-weight: bolder;
+
+}
+.container .cars-body .hilux .btn{
+  width: 180px;
+  border-radius: 10px;
+  background: #000;
+  color:white;
+  padding:10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.container .cars-body .hilux .btn:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+
+.container .cars-body .corolagli{
+    width:415px;
+  height:300px;
+  background: #eee;
+
+  margin:0 0 0 20px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  clear: both;
+  float:left;
+}
+.container .cars-body .corolagli img{
+  margin-top: 5px;
+  width: 100%;
+  height: 55%;
+  object-fit:cover;
+}
+.container .cars-body .corolagli img:hover{
+  transform:scale(1.1);
+    transition:1.3s;
+    cursor: pointer;
+}
+.container .cars-body .corolagli h2{
+  margin-bottom: 2px;
+}
+.container .cars-body .corolagli p{
+  margin-bottom: 3px;
+}
+.container .cars-body .corolagli p span{
+  color:blue;
+  font-size:20px;
+  font-weight: bolder;
+
+}
+.container .cars-body .corolagli .btn{
+  width: 180px;
+  border-radius: 10px;
+  background: #000;
+  color:white;
+  padding:10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.container .cars-body .corolagli .btn:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+
+
+.container .cars-body .cultus{
+    width:415px;
+  height:300px;
+  background: #eee;
+
+  margin:0 0 0 20px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  float:left;
+}
+.container .cars-body .cultus img{
+  margin-top: 5px;
+  width: 100%;
+  height: 55%;
+  object-fit:cover;
+}
+.container .cars-body .cultus img:hover{
+  transform:scale(1.1);
+    transition:1.3s;
+    cursor: pointer;
+}
+.container .cars-body .cultus h2{
+  margin-bottom: 2px;
+}
+.container .cars-body .cultus p{
+  margin-bottom: 3px;
+}
+.container .cars-body .cultus p span{
+  color:blue;
+  font-size:20px;
+  font-weight: bolder;
+
+}
+.container .cars-body .cultus .btn{
+  width: 180px;
+  border-radius: 10px;
+  background: #000;
+  color:white;
+  padding:10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.container .cars-body .cultus .btn:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+
+.container .cars-body .alto{
+    width:415px;
+  height:300px;
+  background: #eee;
+
+  margin:0 0 0 20px;
+  text-align: center;
+  overflow: hidden;
+  box-sizing: border-box;
+  float:left;
+}
+.container .cars-body .alto img{
+  margin-top: 5px;
+  width: 100%;
+  height: 55%;
+  object-fit:cover;
+}
+.container .cars-body .alto img:hover{
+  transform:scale(1.1);
+    transition:1.3s;
+    cursor: pointer;
+}
+.container .cars-body .alto h2{
+  margin-bottom: 2px;
+}
+.container .cars-body .alto p{
+  margin-bottom: 3px;
+}
+.container .cars-body .alto p span{
+  color:blue;
+  font-size:20px;
+  font-weight: bolder;
+
+}
+.container .cars-body .alto .btn{
+  width: 180px;
+  border-radius: 10px;
+  background: #000;
+  color:white;
+  padding:10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.container .cars-body .alto .btn:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+
+
+
+
+/*-------Contact Page----*/
+
+.container .contact{
+  width:100%;
+  height:500px;
+  background:#fff;
+  position: relative;
+}
+.container .contact .form{
+  width:40%;
+  height:480px;
+
+  background: #eee;
+ position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%,-50%);
+
+}
+.container .contact .form h1{
+margin-bottom:20px;
+margin-top: 10px;
+margin-left:13px;
+}
+.container .contact .form h1 a{
+
+  color:black;
+}
+.container .contact .form input{
+  box-sizing:border-box;
+    border:1px solid black;
+  margin:10px 20px 10px 13px;
+  width: 95%;
+  line-height: 25px;
+  padding:5px;
+
+}
+.container .contact .form textarea{
+  width: 95%;
+  box-sizing:border-box;
+  padding:3px;
+  margin:10px 20px 10px 13px;
+  width: 95%;
+}
+.container .contact .form .btn{
+    width: 95%;
+  border-radius: 10px;
+  margin:0 20px 0 13px;
+  background: #000;
+  color:white;
+  padding:10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.container .contact .form .btn:hover{
+  background: blue;
+  cursor: pointer;
+}
+
+
+
+
+
+
+/*--------MAKING RESPONSIVE--------*/
+/*----------for 400px------*/
+@media (max-width: 420px) {
+  .container .header {
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+  }
+  .container .header .logo {
+    margin: 10px 0;
+    width: 100%;
+    height: auto;
+  }
+  .container .header .logo img {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .container .header .logo h1 {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  .container .header .nav ul {
+    flex-direction: column;
+    gap: 15px;
+    margin-right: 0;
+    padding: 0;
+  }
+  .container .header .nav ul li {
+    font-size: 18px;
+  }
+  .container .body {
+    height: auto;
+  }
+  .container .body .text {
+    width: 90%;
+    position: static;
+    margin: 10px auto;
+    text-align: center;
+  }
+  .container .body .text h1 {
+    font-size: 28px;
+  }
+  .container .body .text p {
+    font-size: 16px;
+  }
+  .container .body .text button {
+    width: 100%;
+    font-size: 18px;
+  }
+  .container .body .img {
+    width: 100%;
+    height: auto;
+  }
+  .container .body .img img {
+    width: 100%;
+    height: auto;
+  }
+  .container .footer {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+/*----------for 1040px--------*/
+
+@media screen and (max-width:1040px){
+
+
+  /*-----this is the part of header-------*/
+
+
+.container .header .logo img{
+  width:30%;
+  margin-right: 5px;
+  margin-bottom: 10px;
+}
+
+.container .header .logo h1{
+  margin-top: 25px;
+  font-size:26px;
+}
+.container .header .nav ul{
+
+  gap:30px;
+  font-size:18px;
+  margin-right:130px;
+
+}
+
+
+.container .header .nav #icon{
+  font-size:28px;
+  margin-left: 30px;
+}
+
+
+
+/*-----this is the part of body-------*/
+
+
+.container .body .text{
+  width:400px;
+  position: absolute;
+  left:4%;
+margin-left: 10px;
+}
+.container .body .text h1{
+  font-size:33px;
+
+
+}
+.container .body .text p{
+  font-size:17px;
+
+}
+.container .body .text button{
+  width: 130px;
+  font-size: 20px;
+
+}
+
+.container .body .img{
+  width:650px;
+
+}
+
+
+/*-----this is the part of footer-------*/
+.container .footer{
+
+  text-align: center;
+
+}
+.container .footer a{
+
+  font-size: 26px;
+
+}
+
+ /*---about page---*/
+
+.container .wraper .text-about{
+  width:300px;
+  left:4%;
+}
+
+
+.container .wraper .text-about h1 a{
+
+  font-size: 35px;
+}
+.container .wraper .text-about button{
+  width: 140px;
+
+}
+
+ .container .wraper .img-about{
+   width:600px;
+ }
+
+/*----car-----*/
+
+}
+
+
+/*------for 1300px------*/
+@media screen and (max-width:1300px){
+  /*-------Home Page------*/
+  .container .body .text{
+    left:0%;
+  }
+ /*------Cars page----*/
+
+ .container .cars-body .civic{
+  width:400px;
+  height:300px;
+  margin:0 0 24px 18px;
+
+}
+
+
+.container .cars-body .landcruser{
+    width:400px;
+  height:300px;
+  margin:0 0 24px 18px;
+}
+
+
+
+.container .cars-body .hilux{
+    width:400px;
+  height:300px;
+  margin:0 0 0 20px;
+
+}
+
+
+
+.container .cars-body .corolagli{
+    width:400px;
+  height:300px;
+  margin:0 0 0 20px;
+
+}
+
+.container .cars-body .cultus{
+    width:400px;
+  height:300px;
+  margin:0 0 0 20px;
+
+}
+
+
+.container .cars-body .alto{
+    width:400px;
+  height:300px;
+  margin:0 0 0 20px;
+
+}
+/*--------about paage-----*/
+.container .wraper .text-about{
+  left:5%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/*------for 410px---------*/

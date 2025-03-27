@@ -1,0 +1,781 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width:100;
+  height:auto;
+}
+
+.container .header{
+  width:100%;
+  background: #000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ font-family: arial;
+ margin-bottom:60px;
+}
+.container .header .logo{
+  margin-left:35px;
+}
+.container .header .nav ul{
+  display: flex;
+  gap:25px;
+  list-style: none;
+}
+
+.container .header .nav ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size:18px;
+}
+.container .header .nav ul li a:hover {
+    color: ;
+}
+.container .header .nav ul li ::after{
+  content: ' ';
+    width: 0%;
+    height: 2px;
+    background:white;
+    display: block;
+    margin: auto;
+}
+.container .header .nav ul li:hover ::after{
+  width: 100%;
+  transition: 0.3s;
+
+}
+.container .header .icons a{
+  margin: 6px;
+  color: white;
+  font-size: 18px;
+}
+
+
+.container .text {
+  width: 90%;
+  margin: 0 auto;
+}
+.container .text  h1 {
+  margin-top: 20px;
+  margin-bottom:100px;
+  text-align: center;
+  font-size: 37px;
+  font-family: arial;
+
+}
+
+.container .prfumes{
+  width:90%;
+  height:auto;
+  margin:60px auto;
+  // border:1px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  padding:5px;
+  box-sizing: border-box;
+}
+
+.container .prfumes .first-perfume{
+  flex-basis: 18%;
+  height:250px;
+  margin-right:23px;
+  position: relative;
+}
+.container .prfumes .first-perfume img{
+width : 100%;
+height: 95%;
+border-radius: 16px;
+cursor: pointer;
+
+}
+
+
+.container .prfumes .first-perfume .btn1{
+  position: absolute;
+  top: 85%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#fff;
+  width:130px;
+  box-sizing:border-box;
+  padding:8px;
+  font-family: arial;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: 0.1s;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+.container .prfumes .first-perfume .btn1:hover{
+  background:#000;
+  color:white;
+}
+.container .prfumes .first-perfume:hover .btn1{
+   visibility: visible;
+   opacity: 1;
+
+}
+.container .prfumes .first-perfume button i{
+  font-size:10px;
+  margin-right: 2px;
+}
+
+.container .prfumes .second-perfume{
+  flex-basis: 18%;
+  height:250px;
+  margin-right:23px;
+  position: relative;
+}
+.container .prfumes .second-perfume img{
+width : 100%;
+height: 95%;
+border-radius: 16px;
+cursor: pointer;
+}
+.container .prfumes .second-perfume .btn2{
+  position: absolute;
+  top: 85%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#fff;
+  width:130px;
+  box-sizing:border-box;
+  padding:8px;
+  font-family: arial;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: 0.1s;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+.container .prfumes .second-perfume .btn2:hover{
+  background:#000;
+  color:white;
+}
+.container .prfumes .second-perfume:hover .btn2{
+   visibility: visible;
+   opacity: 1;
+
+}
+.container .prfumes .second-perfume button i{
+  font-size:10px;
+  margin-right: 2px;
+}
+
+.container .prfumes .third-perfume{
+  flex-basis: 18%;
+  height:250px;
+  margin-right:23px;
+
+  position:relative;
+
+}
+.container .prfumes .third-perfume img{
+width : 100%;
+height: 95%;
+cursor: pointer;
+border-radius: 16px;
+}
+.container .prfumes .third-perfume .btn3{
+  position: absolute;
+  top: 85%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#fff;
+  width:130px;
+  box-sizing:border-box;
+  padding:8px;
+  font-family: arial;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: 0.1s;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+.container .prfumes .third-perfume .btn3:hover{
+  background:#000;
+  color:white;
+}
+.container .prfumes .third-perfume:hover .btn3{
+   visibility: visible;
+   opacity: 1;
+
+}
+.container .prfumes .third-perfume button i{
+  font-size:10px;
+  margin-right: 2px;
+}
+
+
+.container .prfumes .fourth-perfume{
+  flex-basis: 18%;
+  height:250px;
+margin-right:23px;
+position: relative;
+}
+.container .prfumes .fourth-perfume img{
+width : 100%;
+height: 95%;
+border-radius: 16px;
+cursor: pointer;
+}
+.container .prfumes .fourth-perfume .btn4{
+  position: absolute;
+  top: 85%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#fff;
+  width:130px;
+  box-sizing:border-box;
+  padding:8px;
+  font-family: arial;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: 0.1s;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+.container .prfumes .fourth-perfume .btn4:hover{
+  background:#000;
+  color:white;
+}
+.container .prfumes .fourth-perfume:hover .btn4{
+   visibility: visible;
+   opacity: 1;
+
+}
+.container .prfumes .fourth-perfume button i{
+  font-size:10px;
+  margin-right: 2px;
+}
+.container .prfumes .fifth-perfume{
+  flex-basis: 18%;
+  height:250px;
+
+   position: relative;
+}
+
+.container .prfumes .fifth-perfume img{
+width : 100%;
+height: 95%;
+border-radius: 16px;
+cursor: pointer;
+}
+.container .prfumes .fifth-perfume .btn5{
+  position: absolute;
+  top: 85%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  background:#fff;
+  width:130px;
+  box-sizing:border-box;
+  padding:8px;
+  font-family: arial;
+  font-weight: 700;
+  border-radius: 6px;
+  transition: 0.1s;
+  cursor: pointer;
+  visibility: hidden;
+  opacity: 0;
+}
+.container .prfumes .fifth-perfume .btn5:hover{
+  background:#000;
+  color:white;
+}
+.container .prfumes .fifth-perfume:hover .btn5{
+   visibility: visible;
+   opacity: 1;
+
+}
+.container .prfumes .fifth-perfume button i{
+  font-size:10px;
+  margin-right: 2px;
+}
+
+.container .prfumes h1{
+  color: #000;
+}
+.container .prfumes h1:hover{
+  color:#ff8c00;
+}
+.container .prfumes #perfumes-tst{
+  text-align: center;
+  font-family: arial;
+  padding: 10px;
+}
+.container .prfumes #perfumes-tst h1{
+  font-size:18px;
+  margin-bottom: 8px;
+}
+.container .prfumes #perfumes-tst p{
+  font-size: 14px;
+  color:red;
+  font-weight: 510;
+  font-family:arial;
+}
+.container .prfumes #perfumes-tst p span{
+  text-decoration: line-through;
+  margin-right: 10px;
+  color:black;
+}
+
+.container .text-orientation{
+  width:80%;
+  height: auto;
+  margin: 170px  auto 60px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  background: #fdfbfb;
+  font-family: sans-serif;
+}
+
+.container .text-orientation .icons{
+  width: 30%;
+  margin-right: 28px;
+}
+.container .text-orientation .icons p{
+    margin-top: 5px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #333;
+}
+
+.icons {
+   box-sizing: border-box;
+   align-items: left;
+
+}
+
+.container .text-orientation .icons i {
+    font-size: 18px;
+    padding:10px;
+    margin:0 6px;
+    border: 1px solid black;
+    border-radius: 50%;
+    color: #555;
+    cursor: pointer;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+.container .text-orientation .icons  .fa-facebook:hover {
+    color: #1877F2;
+}
+
+.container .text-orientation .icons .fa-instagram:hover {
+    color: #E4405F;
+}
+
+.container .text-orientation .icons .fa-tiktok:hover {
+    color: red;
+}
+
+
+
+.container .text-orientation .privacy{
+  width: 26%;
+  margin-right: 20px;
+
+}
+.container .text-orientation .privacy ul{
+  margin-left: 15px;
+  list-style: none;
+  line-height: 30px;
+  text-align: center;
+  text-align: justify;
+  transition: 0.3s;
+  color: #333;
+}
+
+.container .text-orientation .privacy ul li:hover{
+  color: brown;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.container .text-orientation .emails{
+  width: 38%;
+  color: #333;
+  font-family: arial;
+}
+.container .text-orientation .emails h3{
+  margin-bottom:20px;
+}
+.container .text-orientation .emails p{
+  margin-bottom: 50px;
+}
+.container .text-orientation .emails input{
+  margin:0;
+  background: none;
+  border:1px solid #rgba(255, 0, 0, 0.5);
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.container .text-orientation .emails button{
+  box-sizing: border-box;
+  padding:18px  18px;
+  background: #000;
+  color: white;
+  font-size: 16px;
+  font-family: arial;
+  font-weight: bold;
+cursor: pointer;
+  transition: 0.7s;
+}
+.container .text-orientation .emails button:hover{
+  transform:scale(1.2);
+  cursor: pointer;
+  transition: 0.7s;
+
+}
+.container .text-orientation .emails button i{
+  margin-left:8px;
+}
+
+.container .hyder{
+
+  width:92%;
+  margin: 0 auto;
+  background: #fdfbfb;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.container .hyder .lst{
+  margin-left:10px;
+  font-family: arial;
+  line-height:25px;
+}
+.container .hyder .lst p span{
+  font-weight:bold;
+}
+.container .hyder .lst a{
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+}
+.container .hyder .lg{
+  height:30px;
+}
+.container .hyder .lg img{
+  height:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1280px)  {
+  .container .prfumes{
+    width:90%;
+  }
+  .container .prfumes .first-perfume{
+    flex-basis: 47%;
+    height:500px;
+    margin-bottom:50px;
+  }
+
+  .container .prfumes .second-perfume{
+    flex-basis: 47%;
+    height:500px;
+      margin-bottom:50px;
+  }
+
+
+  .container .prfumes .third-perfume{
+    flex-basis: 47%;
+    height:500px;
+
+  }
+
+
+  .container .prfumes .fourth-perfume{
+    flex-basis: 47%;
+    height:500px;
+
+  }
+
+
+  .container .prfumes .fifth-perfume{
+    flex-basis: 47%;
+    height:500px;
+     margin-top:50px;
+  }
+  .container .prfumes  #hero-btn{
+    width:160px;
+    padding: 10px;
+    top:85%;
+  }
+}
+
+
+@media screen and (max-width:1024px)  {
+  .container .header .icons{
+    margin:0;
+  }
+  .container .header .icons i{
+    font-size: 14px;
+    padding:0;
+    margin-top:0px;
+    margin-right:8px;
+    display: flex;
+  }
+  .container .header .nav{
+    order:-1;
+  }
+  .container .header .nav ul{
+    gap:10px;
+    flex-direction: column;
+    margin-left: 5px;
+    margin-top: 0;
+  }
+
+  .container .prfumes{
+    width:90%;
+  }
+  .container .prfumes .first-perfume{
+    flex-basis: 47%;
+    height:400px;
+    margin-bottom: 50px;
+  }
+
+  .container .prfumes .second-perfume{
+    flex-basis: 47%;
+    height:400px;
+  }
+
+
+  .container .prfumes .third-perfume{
+    flex-basis: 47%;
+      height:400px;
+    margin-bottom: 50px;
+  }
+
+
+  .container .prfumes .fourth-perfume{
+    flex-basis: 47%;
+      height:400px;
+
+  }
+  .container .prfumes .fifth-perfume{
+    flex-basis: 47%;
+    height:400px;
+
+  }
+
+.container .prfumes  #perfumes-tst h1{
+    font-size: 20px;
+  }
+  .container .prfumes  #perfumes-tst p{
+      font-size: 13px;
+    }
+
+.container .prfumes  #hero-btn{
+  width:160px;
+  padding: 10px;
+  top:85%;
+}
+.container .text-orientation .icons{
+  width:100%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #000;
+
+}
+.container .text-orientation .icons i{
+  margin-bottom: 10px;
+}
+.container .text-orientation .privacy{
+  width:100%;
+  margin-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+.container .text-orientation .privacy ul{
+  margin-bottom: 10px;
+}
+.container .text-orientation .emails{
+  width:100%;
+  border-bottom: 1px solid black;
+}
+.container .text-orientation .emails input{
+  width:60%;
+  margin-bottom: 15px;
+}
+}
+
+
+@media screen and (max-width:860px)  {
+.container .prfumes{
+  width:90%;
+
+}
+.container .prfumes .first-perfume{
+flex-basis: 46%;
+  height:300px;
+}
+
+.container .prfumes .second-perfume{
+flex-basis: 46%;
+  height:300px;
+
+}
+
+
+.container .prfumes .third-perfume{
+flex-basis: 44%;
+  height:300px;
+
+
+}
+
+
+.container .prfumes .fourth-perfume{
+flex-basis: 44%;
+  height:300px;
+
+}
+
+
+.container .prfumes .fifth-perfume{
+flex-basis: 44%;
+  height:300px;
+
+}
+.container .text-orientation .emails input{
+  width:50%;
+
+}
+}
+
+  @media screen and (max-width:510px)  {
+  .container .prfumes{
+    width:90%;
+  }
+  .container .prfumes .first-perfume{
+  flex-basis: 44%;
+    height:250px;
+  }
+
+  .container .prfumes .second-perfume{
+  flex-basis: 44%;
+    height:250px;
+
+  }
+
+
+  .container .prfumes .third-perfume{
+   flex-basis: 44%;
+    height:250px;
+
+
+  }
+
+
+  .container .prfumes .fourth-perfume{
+flex-basis: 44%;
+    height:250px;
+
+  }
+
+
+  .container .prfumes .fifth-perfume{
+  flex-basis: 44%;
+    height:250px;
+
+  }
+  .container .text-orientation .emails input{
+    width:50%;
+
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:450px)  {
+
+.container .prfumes{
+  width:95%;
+
+}
+ .container .prfumes #perfumes-tst h1{
+   font-size:18px;
+ }
+ .container .prfumes #perfumes-tst p{
+   font-size:14px;
+ }
+.container .prfumes .first-perfume{
+   flex-basis: 44%;
+   height:200px;
+   margin-bottom: 80px;
+
+}
+
+.container .prfumes .second-perfume{
+  flex-basis: 44%;
+   height:200px;
+   margin-bottom: 50px;
+
+}
+
+
+.container .prfumes .third-perfume{
+  flex-basis: 44%;
+  height:200px;
+  margin-bottom: 50px;
+
+
+}
+
+
+.container .prfumes .fourth-perfume{
+flex-basis: 44%;
+ height:200px;
+ margin-bottom: 50px;
+
+
+
+}
+
+
+.container .prfumes .fifth-perfume{
+  flex-basis: 44%;
+  height:200px;
+  margin-bottom: 50px;
+
+}
+
+ .container .prfumes #hero-btn{
+   width:120px;
+   font-size:12px;
+   padding:5px;
+ }
+ .container .prfumes #hero-btn i{
+
+   font-size:16px;
+
+ }
+ .container .text-orientation .emails input{
+   width:50%;
+
+ }
+}
